@@ -1,0 +1,371 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  padding: 21px 60px;
+  position: fixed; }
+  .container-header header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%; }
+    .container-header header .home-page {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      width: 33%;
+      text-decoration: none; }
+      .container-header header .home-page .home-border {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        border-right: double 1px transparent;
+        border-top: double 1px transparent;
+        border-bottom: double 1px transparent;
+        -webkit-border-radius: 80px;
+        border-radius: 80px;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000)), -webkit-gradient(linear, left top, left bottom, from(#DF34AA), to(#B92BD6));
+        background-image: linear-gradient(#000, #000), linear-gradient(180deg, #DF34AA 0%, #B92BD6 100%);
+        background-origin: border-box;
+        background-clip: content-box, border-box; }
+      .container-header header .home-page .home-icon {
+        border: 2px solid #fff;
+        position: relative;
+        z-index: 10;
+        background-color: #FFFFFF;
+        -webkit-border-radius: 50%;
+        border-radius: 50%; }
+        .container-header header .home-page .home-icon img {
+          padding: 20px; }
+      .container-header header .home-page .home-icon:before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: -1;
+        top: 2px;
+        left: 2px;
+        right: 2px;
+        bottom: 2px;
+        border: 5px solid #000;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        padding: 10px; }
+      .container-header header .home-page .home-text {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        padding: 17px 29px 19px 21px;
+        text-align: center; }
+      .container-header header .home-page p {
+        font-family: LG Smart;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF; }
+      .container-header header .home-page .logo-block {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        width: 33%; }
+    .container-header header .more-info-block {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      width: 33%; }
+      .container-header header .more-info-block .more-info a {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        border-right: double 1px transparent;
+        border-top: double 1px transparent;
+        border-bottom: double 1px transparent;
+        -webkit-border-radius: 80px;
+        border-radius: 80px;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000)), -webkit-gradient(linear, left top, left bottom, from(#DF34AA), to(#B92BD6));
+        background-image: linear-gradient(#000, #000), linear-gradient(180deg, #DF34AA 0%, #B92BD6 100%);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        text-decoration: none; }
+        .container-header header .more-info-block .more-info a p {
+          font-family: LG Smart;
+          font-style: italic;
+          font-weight: bold;
+          font-size: 23px;
+          line-height: 28px;
+          text-align: center;
+          color: #FFFFFF;
+          padding: 17px 33px 19px 36px; }
+
+@font-face {
+  font-family: 'LG Smart';
+  font-style: normal;
+  font-weight: normal;
+  src: local("LG Smart"), url("../fonts/LG Smart Regular.woff") format("woff"); }
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  overflow: hidden; }
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  overflow-x: hidden; }
+
+.container-main-home {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%; }
+  .container-main-home .main-home {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%; }
+  .container-main-home .main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 100%; }
+    .container-main-home .main .in-house {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      width: 50%;
+      height: 100vh;
+      background: -webkit-gradient(linear, left top, left bottom, from(#DF34AA), to(#B92BD6));
+      background: linear-gradient(180deg, #DF34AA 0%, #B92BD6 100%); }
+      .container-main-home .main .in-house h1 {
+        font-family: LG Smart;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 65px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 89px; }
+      .container-main-home .main .in-house .test-helper {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        background: #FFFFFF;
+        border: 1px solid #783CBD;
+        -webkit-border-radius: 80px 80px 10px 80px;
+        border-radius: 80px 80px 10px 80px;
+        padding: 28px 20px 28px 50px;
+        -webkit-backdrop-filter: blur(1px);
+        backdrop-filter: blur(1px);
+        text-decoration: none; }
+        .container-main-home .main .in-house .test-helper .house-icon {
+          background: #6840C4;
+          -webkit-border-radius: 6% 50% 50% 50% / 6% 50% 50% 50%;
+          border-radius: 6% 50% 50% 50% / 6% 50% 50% 50%; }
+        .container-main-home .main .in-house .test-helper .house-text p {
+          font-family: LG Smart;
+          font-size: 25px;
+          line-height: 45px;
+          color: #7842BA;
+          padding-left: 40px; }
+    .container-main-home .main .playAndLearn {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      width: 50%;
+      height: 100vh;
+      background: -webkit-gradient(linear, left top, left bottom, from(#BE26FF), to(#5B26FF));
+      background: linear-gradient(180deg, #BE26FF 0%, #5B26FF 100%); }
+      .container-main-home .main .playAndLearn h1 {
+        font-family: LG Smart;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 65px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 89px; }
+      .container-main-home .main .playAndLearn .go-play {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        background: #FFFFFF;
+        border: 1px solid #783CBD;
+        -webkit-border-radius: 80px 80px 80px 10px;
+        border-radius: 80px 80px 80px 10px;
+        padding: 28px 32px 28px 30px;
+        -webkit-backdrop-filter: blur(1px);
+        backdrop-filter: blur(1px);
+        text-decoration: none; }
+        .container-main-home .main .playAndLearn .go-play .play-icon {
+          background: #6840C4;
+          -webkit-border-radius: 6% 50% 50% 50% / 6% 50% 50% 50%;
+          border-radius: 6% 50% 50% 50% / 6% 50% 50% 50%; }
+          .container-main-home .main .playAndLearn .go-play .play-icon svg {
+            padding: 10px; }
+          .container-main-home .main .playAndLearn .go-play .play-icon .svg-x {
+            opacity: 0; }
+        .container-main-home .main .playAndLearn .go-play .play-text P {
+          font-family: LG Smart;
+          font-size: 25px;
+          line-height: 45px;
+          color: #7842BA;
+          padding-left: 40px; }
+  .container-main-home .speaker {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 35%;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s; }
+    .container-main-home .speaker .pulse-css {
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 25px;
+      border-radius: 25px;
+      position: relative; }
+      .container-main-home .speaker .pulse-css:before, .container-main-home .speaker .pulse-css:after {
+        content: "";
+        width: 50px;
+        height: 50px;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
+        background: radial-gradient(49.94% 49.94% at 50% 49.94%, rgba(196, 196, 196, 0) 0%, rgba(196, 196, 196, 0) 38.51%, #ff26c9 100%);
+        position: absolute;
+        top: 0;
+        right: 50%;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation: pulse-me 3s linear infinite;
+        animation: pulse-me 3s linear infinite; }
+      .container-main-home .speaker .pulse-css:after {
+        -webkit-animation-delay: 1s;
+        animation-delay: 1s; }
+
+@-webkit-keyframes pulse-me {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  50% {
+    opacity: 0.1; }
+  70% {
+    opacity: 0.09; }
+  100% {
+    -webkit-transform: scale(35);
+    transform: scale(35);
+    opacity: 0; } }
+
+@keyframes pulse-me {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; }
+  50% {
+    opacity: 0.1; }
+  70% {
+    opacity: 0.09; }
+  100% {
+    -webkit-transform: scale(35);
+    transform: scale(35);
+    opacity: 0; } }
