@@ -18,7 +18,8 @@
   height: auto;
   background-color: #000000;
   padding: 21px 60px;
-  position: fixed; }
+  position: fixed;
+  z-index: 99999; }
   .container-header header {
     display: -webkit-box;
     display: -webkit-flex;
@@ -90,7 +91,7 @@
         padding: 17px 29px 19px 21px;
         text-align: center; }
       .container-header header .home-page p {
-        font-family: LG Smart;
+        font-family: "LG Smart",sans-serif;
         font-style: italic;
         font-weight: bold;
         font-size: 23px;
@@ -117,25 +118,35 @@
         display: -webkit-box;
         display: -webkit-flex;
         display: flex;
-        border-right: double 1px transparent;
-        border-top: double 1px transparent;
-        border-bottom: double 1px transparent;
+        position: relative;
+        z-index: 2;
+        border: double 1px transparent;
         -webkit-border-radius: 80px;
         border-radius: 80px;
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000)), -webkit-gradient(linear, left top, left bottom, from(#DF34AA), to(#B92BD6));
-        background-image: linear-gradient(#000, #000), linear-gradient(180deg, #DF34AA 0%, #B92BD6 100%);
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000)), -webkit-gradient(linear, left top, right top, color-stop(50%, #DF34AA), to(#B92BD6));
+        background-image: linear-gradient(#000, #000), linear-gradient(to right, #DF34AA 50%, #B92BD6 100%);
         background-origin: border-box;
         background-clip: content-box, border-box;
         text-decoration: none; }
         .container-header header .more-info-block .more-info a p {
-          font-family: LG Smart;
-          font-style: italic;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          font-family: "LG Smart",sans-serif;
           font-weight: bold;
-          font-size: 23px;
+          font-size: 18px;
           line-height: 28px;
           text-align: center;
           color: #FFFFFF;
-          padding: 17px 33px 19px 36px; }
+          padding: 17px 33px 19px 30px;
+          -webkit-border-radius: 80px;
+          border-radius: 80px; }
 
 @font-face {
   font-family: 'LG Smart';
@@ -202,7 +213,7 @@ body {
       background: -webkit-gradient(linear, left top, left bottom, from(#DF34AA), to(#B92BD6));
       background: linear-gradient(180deg, #DF34AA 0%, #B92BD6 100%); }
       .container-main-home .main .in-house h1 {
-        font-family: LG Smart;
+        font-family: "LG Smart",sans-serif;
         font-style: italic;
         font-weight: bold;
         font-size: 45px;
@@ -235,7 +246,7 @@ body {
           -webkit-border-radius: 6% 50% 50% 50% / 6% 50% 50% 50%;
           border-radius: 6% 50% 50% 50% / 6% 50% 50% 50%; }
         .container-main-home .main .in-house .test-helper .house-text p {
-          font-family: LG Smart;
+          font-family: "LG Smart",sans-serif;
           font-size: 25px;
           line-height: 45px;
           color: #7842BA;
@@ -259,7 +270,7 @@ body {
       background: -webkit-gradient(linear, left top, left bottom, from(#BE26FF), to(#5B26FF));
       background: linear-gradient(180deg, #BE26FF 0%, #5B26FF 100%); }
       .container-main-home .main .playAndLearn h1 {
-        font-family: LG Smart;
+        font-family: "LG Smart",sans-serif;
         font-style: italic;
         font-weight: bold;
         font-size: 45px;
@@ -296,7 +307,7 @@ body {
           .container-main-home .main .playAndLearn .go-play .play-icon .svg-x {
             opacity: 0; }
         .container-main-home .main .playAndLearn .go-play .play-text P {
-          font-family: LG Smart;
+          font-family: "LG Smart",sans-serif;
           font-size: 25px;
           line-height: 45px;
           color: #7842BA;
@@ -369,3 +380,110 @@ body {
     -webkit-transform: scale(35);
     transform: scale(35);
     opacity: 0; } }
+
+.container-main-sayHello {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%; }
+  .container-main-sayHello .swiper-pagination {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 50%;
+    position: absolute;
+    left: -45% !important; }
+  .container-main-sayHello .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    color: #000;
+    background: #C4C4C4;
+    border: 2px solid #EAEFF4;
+    opacity: 1; }
+  .container-main-sayHello .swiper-pagination-bullet-active {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 4px solid #EAEFF4; }
+  .container-main-sayHello .main-sayHello {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%; }
+    .container-main-sayHello .main-sayHello main {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      width: 100%;
+      height: 100%; }
+      .container-main-sayHello .main-sayHello main .welcome {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(#DF34AA), to(#B92BD6));
+        background: linear-gradient(180deg, #DF34AA 0%, #B92BD6 100%); }
+        .container-main-sayHello .main-sayHello main .welcome h1 {
+          font-family: "LG Smart",sans-serif;
+          font-weight: bold;
+          font-size: 60px;
+          line-height: 60px;
+          text-align: center;
+          color: #FFFFFF;
+          padding-bottom: 60px; }
+        .container-main-sayHello .main-sayHello main .welcome p {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          font-family: "LG Smart",sans-serif;
+          font-weight: bold;
+          font-size: 45px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF; }
+        .container-main-sayHello .main-sayHello main .welcome .text-opacity {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          font-family: "LG Smart",sans-serif;
+          font-weight: normal;
+          font-size: 45px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF;
+          opacity: 0.3;
+          padding-top: 60px; }

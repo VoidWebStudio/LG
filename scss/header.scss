@@ -12,11 +12,13 @@
   background-color: #000000;
   padding: 21px 60px;
   position: fixed;
+  z-index: 99999;
   header{
       display: flex;
       justify-content: space-between;
       align-items: center;
       width: 100%;
+
     .home-page{
       display: flex;
       align-items: center;
@@ -64,7 +66,7 @@
           text-align: center;
       }
       p{
-        font-family: LG Smart;
+        font-family: "LG Smart",sans-serif;
         font-style: italic;
         font-weight: bold;
         font-size: 23px;
@@ -86,23 +88,27 @@
       .more-info{
         a{
           display: flex;
-          border-right: double 1px transparent;
-          border-top: double 1px transparent;
-          border-bottom: double 1px transparent;
+          position: relative;
+          z-index: 2;
+          border: double 1px transparent;
+
           border-radius: 80px;
-          background-image: linear-gradient(#000,#000 ), linear-gradient(180deg, #DF34AA 0%, #B92BD6 100%);
+          background-image: linear-gradient(#000,#000),linear-gradient(to right, #DF34AA 50%, #B92BD6 100%);
           background-origin: border-box;
           background-clip: content-box, border-box;
           text-decoration: none;
           p{
-            font-family: LG Smart;
-            font-style: italic;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "LG Smart",sans-serif;
             font-weight: bold;
-            font-size: 23px;
+            font-size: 18px;
             line-height: 28px;
             text-align: center;
             color: #FFFFFF;
-            padding: 17px 33px 19px 36px;
+            padding: 17px 33px 19px 30px;
+            border-radius: 80px;
           }
 
         }

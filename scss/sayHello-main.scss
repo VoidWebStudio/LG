@@ -1,0 +1,81 @@
+.container-main-sayHello{
+  display: flex;
+  width: 100%;
+  .swiper-pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: absolute;
+    left: -45%!important;
+  }
+  .swiper-pagination-bullet {
+
+    width: 10px;
+    height: 10px;
+    color:#000;
+    background: #C4C4C4;
+    border: 2px solid #EAEFF4;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 4px solid #EAEFF4;
+  }
+  .main-sayHello{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    main{
+      display: flex;
+      width: 100%;
+      height: 100%;
+      .welcome{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        background: linear-gradient(180deg, #DF34AA 0%, #B92BD6 100%);
+        h1{
+          font-family: "LG Smart",sans-serif;
+          font-weight: bold;
+          font-size: 60px;
+          line-height: 60px;
+          text-align: center;
+          color: #FFFFFF;
+          padding-bottom: 60px;
+        }
+        p{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: "LG Smart",sans-serif;
+          font-weight: bold;
+          font-size: 45px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF;
+        }
+        .text-opacity{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: "LG Smart",sans-serif;
+          font-weight: normal;
+          font-size: 45px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF;
+          opacity: 0.3;
+          padding-top: 60px;
+        }
+      }
+    }
+  }
+
+}
