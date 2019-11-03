@@ -1,11 +1,12 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-.container-header{
+
+.container-header {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: auto;
@@ -13,60 +14,67 @@
   padding: 21px 60px;
   position: fixed;
   z-index: 99999;
-  header{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
 
-    .home-page{
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .home-page {
       display: flex;
       align-items: center;
       width: 33%;
       text-decoration: none;
-      .home-border{
+
+      .home-border {
         display: flex;
         align-items: center;
         border-right: double 1px transparent;
         border-top: double 1px transparent;
         border-bottom: double 1px transparent;
         border-radius: 80px;
-        background-image: linear-gradient(#000,#000 ), linear-gradient(180deg, #DF34AA 0%, #B92BD6 100%);
+        background-image: linear-gradient(#000, #000), linear-gradient(180deg, #DF34AA 0%, #B92BD6 100%);
         background-origin: border-box;
         background-clip: content-box, border-box;
       }
-      .home-icon{
-        border:2px solid #fff;
-        position:relative;
-        z-index:10;
+
+      .home-icon {
+        border: 2px solid #fff;
+        position: relative;
+        z-index: 10;
         background-color: #FFFFFF;
         border-radius: 50%;
-          img{
-            padding: 20px;
-          }
+
+        img {
+          padding: 20px;
+        }
       }
-      .home-icon:before{
-        content:"";
-        display:block;
-        position:absolute;
-        z-index:-1;
-        top:2px;
-        left:2px;
-        right:2px;
-        bottom:2px;
-        border:5px solid #000;
+
+      .home-icon:before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: -1;
+        top: 2px;
+        left: 2px;
+        right: 2px;
+        bottom: 2px;
+        border: 5px solid #000;
         border-radius: 50%;
         padding: 10px;
       }
-      .home-text{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 17px 29px 19px 21px;
-          text-align: center;
+
+      .home-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 17px 29px 19px 21px;
+        text-align: center;
       }
-      p{
-        font-family: "LG Smart",sans-serif;
+
+      p {
+        font-family: "LG Smart", sans-serif;
         font-style: italic;
         font-weight: bold;
         font-size: 23px;
@@ -74,34 +82,38 @@
         text-align: center;
         color: #FFFFFF;
       }
-      .logo-block{
-          display: flex;
-          width: 33%;
+
+      .logo-block {
+        display: flex;
+        width: 33%;
 
       }
     }
-    .more-info-block{
+
+    .more-info-block {
       display: flex;
       justify-content: center;
       align-items: center;
       width: 33%;
-      .more-info{
-        a{
+
+      .more-info {
+        a {
           display: flex;
           position: relative;
           z-index: 2;
           border: double 1px transparent;
 
           border-radius: 80px;
-          background-image: linear-gradient(#000,#000),linear-gradient(to right, #DF34AA 50%, #B92BD6 100%);
+          background-image: linear-gradient(#000, #000), linear-gradient(to right, #DF34AA 50%, #B92BD6 100%);
           background-origin: border-box;
           background-clip: content-box, border-box;
           text-decoration: none;
-          p{
+
+          p {
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: "LG Smart",sans-serif;
+            font-family: "LG Smart", sans-serif;
             font-weight: bold;
             font-size: 18px;
             line-height: 28px;
