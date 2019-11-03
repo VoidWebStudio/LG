@@ -71,11 +71,383 @@
           line-height: 45px;
           text-align: center;
           color: #FFFFFF;
-          opacity: 0.3;
+          opacity: 0;
           padding-top: 60px;
+          animation-name:  animated-text;
+          animation-duration: 1s;
+          animation-fill-mode:forwards;
+          animation-delay: 3s;
         }
       }
+      .image-massive{
+        width: 50%;
+        height: 100vh;
+        padding: 20px;
+        .home-cleaner{
+          position: absolute;
+          left:72%;
+          top: 45%;
+          animation-delay: 3.5s;
+        }
+        .circle{
+            position: absolute;
+            left:58%;
+            top: 18%;
+            transform: rotate(-90deg);
+        }
+        .air{
+          position: absolute;
+          left:54%;
+          top: 13%;
+          z-index: 1;
+          animation-delay: 4s;
+        }
+        .cleaner{
+          position: absolute;
+          left:83%;
+          top: 18%;
+          z-index: 1;
+          animation-delay: 4.5s;
+        }
+        .washer{
+          position: absolute;
+          left:69%;
+          top: 70%;
+          z-index: 1;
+          animation-delay: 5s;
+        }
+        .ball-1{
+          position: absolute;
+          left:68%;
+          top: 17%;
+          z-index: 1;
+          animation-delay: 5.3s;
+        }
+        .ball-2{
+          position: absolute;
+          left:73%;
+          top: 16.5%;
+          z-index: 1;
+          animation-delay: 5.6s;
+        }
+        .ball-4{
+          position: absolute;
+          left:77%;
+          top: 16.5%;
+          z-index: 1;
+          animation-delay: 5.9s;
+        }
+        .ball-5{
+          position: absolute;
+          left:80.5%;
+          top: 17%;
+          z-index: 1;
+          animation-delay: 6.1s;
+        }
+        .ball-6{
+          position: absolute;
+          left:92.5%;
+          top: 50%;
+          z-index: 1;
+          animation-delay:6.3s;
+        }
+        .ball-7{
+          position: absolute;
+          left:91%;
+          top: 61%;
+          z-index: 1;
+          animation-delay: 6.6s;
+        }
+        .ball-8{
+          position: absolute;
+          left:88%;
+          top: 73.5%;
+          z-index: 1;
+          animation-delay: 6.9s;
+        }
+        .ball-9{
+          position: absolute;
+          left:85%;
+          top: 80.5%;
+          z-index: 1;
+          animation-delay: 7.1s;
+        }
+        .ball-10{
+          position: absolute;
+          left:65%;
+          top: 80%;
+          z-index: 1;
+          animation-delay: 7.3s;
+        }
+        .ball-11{
+          position: absolute;
+          left:61.5%;
+          top: 74%;
+          z-index: 1;
+          animation-delay: 7.6s;
+        }
+        .ball-12{
+          position: absolute;
+          left:58%;
+          top: 63%;
+          z-index: 1;
+          animation-delay: 7.9s;
+        }
+        .ball-13{
+          position: absolute;
+          left:57.2%;
+          top: 53%;
+          z-index: 1;
+          animation-delay: 8.1s;
+        }
+
+        @keyframes animate-svg-stroke-1 {
+          0% {
+            stroke-dashoffset: -2128.85822648029px;
+            stroke-dasharray: 2128.85822648029px;
+          }
+
+          100% {
+            stroke-dashoffset: 0;
+          }
+        }
+
+        .svg-elem-1 {
+          animation: animate-svg-stroke-1 2s ease-in 5s both;
+        }
+
+
+      }
+      .chat-block{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        background: linear-gradient(180deg, #DF34AA 0%, #B92BD6 100%);
+        .upper-text{
+            p{
+              font-family: "LG Smart",sans-serif;
+              font-weight: normal;
+              font-size: 30px;
+              line-height: 45px;
+              text-align: center;
+              color: #FFFFFF;
+              animation-delay: 11s;
+            }
+            .text-top{
+              opacity: 0.3;
+              padding-top: 50px;
+              padding-bottom: 20px;
+              animation-name:  animated-text;
+              animation-duration: 1s;
+              animation-fill-mode:forwards;
+              animation-delay: 10s;
+            }
+        }
+        .say-something{
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          width: 100%;
+          padding-left: 60px;
+            h1{
+              font-family: "LG Smart",sans-serif;
+              font-weight: normal;
+              font-size: 30px;
+              line-height: 45px;
+              color: #FFFFFF;
+              padding-top: 20px;
+              padding-bottom: 30px;
+              animation-delay: 12s;
+            }
+          .hello-alice{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            text-align: center;
+            background: #FFFFFF;
+            border: 1px solid #783CBD;
+            border-radius: 10px 80px 80px 80px;
+            width: 40%;
+            backdrop-filter: blur(1px);
+            padding-bottom: 30px;
+            animation-delay: 13s;
+            p{
+              display: flex;
+              justify-content:center;
+              align-items: center;
+              font-family: "LG Smart",sans-serif;
+              font-weight: normal;
+              font-size: 30px;
+              line-height: 65px;
+              text-align: center;
+              padding-top: 30px;
+              color: #7842BA;
+            }
+          }
+        }
+        .turn-on-message{
+          font-family: "LG Smart",sans-serif;
+          font-weight: normal;
+          font-size: 30px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF;
+          opacity: 0;
+          padding-top: 20px;
+          padding-bottom: 30px;
+          animation-name:  animated-text;
+          animation-duration: 1s;
+          animation-fill-mode:forwards;
+          animation-delay: 14s;
+        }
+        .button-to-approve{
+          display: flex;
+          justify-content: space-between;
+          width: 70%;
+          padding-bottom: 20px;
+          a{
+            border: 4px solid #783CBD;
+            backdrop-filter: blur(1px);
+            border-radius: 80px;
+          }
+          .repeat{
+            background: #FFFFFF;
+            font-family: "LG Smart",sans-serif;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 40px;
+            text-align: center;
+            color: #BEBEBE;
+            padding: 20px 40px;
+            text-decoration: none;
+            animation-delay: 15s;
+          }
+          .ready{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "LG Smart",sans-serif;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 10px;
+            text-align: center;
+            color: #FFFFFF;
+            padding: 0 67px;
+            background: linear-gradient(0deg, #6326FF 9.09%, #8526FF 93.94%);
+            text-decoration: none;
+            animation-delay: 16s;
+          }
+        }
+        .hello-alice-opacity{
+          display: flex;
+          justify-content:center;
+          align-items: center;
+          text-align: center;
+          background: #FFFFFF;
+          border: 1px solid #783CBD;
+          border-radius: 10px 80px 80px 80px;
+          width: 40%;
+          opacity: 0.3;
+          backdrop-filter: blur(1px);
+          padding-bottom: 30px;
+          animation-name:  animated-text;
+          animation-duration: 1s;
+          animation-fill-mode:forwards;
+          animation-delay: 20s;
+          p{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            font-family: "LG Smart",sans-serif;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 65px;
+            text-align: center;
+            padding-top: 30px;
+            color: #7842BA;
+          }
+        }
+        .button-approved{
+          display: flex;
+          justify-content: flex-end;
+          width: 80%;
+          padding-bottom: 45px;
+          .ready-start{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "LG Smart",sans-serif;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 65px;
+            padding: 39px 67px 29px;
+            width: 446px;
+            text-align: center;
+            background: #fff;
+            border-radius: 80px 80px 10px 80px;
+            color: #7842BA;
+            border: 1px solid #783CBD;
+            text-decoration: none;
+            animation-delay: 21s;
+          }
+        }
+        .turn-on{
+          font-family: "LG Smart",sans-serif;
+          font-weight: bold;
+          font-size: 45px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF;
+          animation-delay: 22s;
+        }
+        .little-windy{
+          font-family: "LG Smart",sans-serif;
+          font-weight: normal;
+          font-size: 45px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF;
+          opacity: 0;
+          padding-top: 60px;
+          animation-name:  animated-text;
+          animation-duration: 1s;
+          animation-fill-mode:forwards;
+          animation-delay: 23s;
+        }
+      }
+      .aircleaner-low{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+      }
     }
+    .speaker{
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+      right: 37.7%;
+      animation-delay: 1s;
+    }
+    @keyframes animated-text {
+      from {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+      }
+
+      to {
+        opacity: 0.3;
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
   }
 
 }
