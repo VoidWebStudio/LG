@@ -3,42 +3,50 @@
   height: $circleSize;
   border-radius: $circleSize/2;
 }
-*{
+
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   overflow: hidden;
 }
-.container{
+
+.container {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
 }
-.container-main-home{
+
+.container-main-home {
   display: flex;
   width: 100%;
-  .main-home{
+
+  .main-home {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
   }
-  .main{
+
+  .main {
     display: flex;
     width: 100%;
     height: 100%;
-    .in-house{
+
+    .in-house {
       display: flex;
-      justify-content:center;
+      justify-content: center;
       align-items: center;
       flex-direction: column;
       width: 50%;
       height: 100vh;
       background: linear-gradient(180deg, #DF34AA 0%, #B92BD6 100%);
-      h1{
-        font-family: "LG Smart",sans-serif;
+
+      h1 {
+        font-family: "LG Smart", sans-serif;
         font-style: italic;
         font-weight: bold;
         font-size: 45px;
@@ -47,9 +55,10 @@ body {
         color: #FFFFFF;
         padding-bottom: 89px;
       }
-      .test-helper{
+
+      .test-helper {
         display: flex;
-        justify-content:center;
+        justify-content: center;
         position: relative;
         z-index: 1;
         align-items: center;
@@ -59,13 +68,15 @@ body {
         padding: 28px 20px 28px 50px;
         backdrop-filter: blur(1px);
         text-decoration: none;
-        .house-icon{
-          background:#6840C4;
-          border-radius: 6% 50% 50% 50% / 6% 50% 50% 50% ;
+
+        .house-icon {
+          background: #6840C4;
+          border-radius: 6% 50% 50% 50% / 6% 50% 50% 50%;
         }
-        .house-text{
-          p{
-            font-family: "LG Smart",sans-serif;
+
+        .house-text {
+          p {
+            font-family: "LG Smart", sans-serif;
             font-size: 25px;
             line-height: 45px;
             color: #7842BA;
@@ -75,16 +86,18 @@ body {
         }
       }
     }
-    .playAndLearn{
+
+    .playAndLearn {
       display: flex;
-      justify-content:center;
+      justify-content: center;
       align-items: center;
       flex-direction: column;
       width: 50%;
       height: 100vh;
       background: linear-gradient(180deg, #BE26FF 0%, #5B26FF 100%);
-      h1{
-        font-family: "LG Smart",sans-serif;
+
+      h1 {
+        font-family: "LG Smart", sans-serif;
         font-style: italic;
         font-weight: bold;
         font-size: 45px;
@@ -93,9 +106,10 @@ body {
         color: #FFFFFF;
         padding-bottom: 89px;
       }
-      .go-play{
+
+      .go-play {
         display: flex;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
         position: relative;
         z-index: 1;
@@ -105,19 +119,23 @@ body {
         padding: 28px 32px 28px 30px;
         backdrop-filter: blur(1px);
         text-decoration: none;
-        .play-icon{
-          background:#6840C4;
-          border-radius: 6% 50% 50% 50% / 6% 50% 50% 50% ;
-          svg{
+
+        .play-icon {
+          background: #6840C4;
+          border-radius: 6% 50% 50% 50% / 6% 50% 50% 50%;
+
+          svg {
             padding: 10px;
           }
-          .svg-x{
+
+          .svg-x {
             opacity: 0;
           }
         }
-        .play-text{
-          P{
-            font-family: "LG Smart",sans-serif;
+
+        .play-text {
+          P {
+            font-family: "LG Smart", sans-serif;
             font-size: 25px;
             line-height: 45px;
             color: #7842BA;
@@ -127,24 +145,27 @@ body {
       }
     }
   }
-  .speaker{
+
+  .speaker {
     display: flex;
     justify-content: center;
     position: absolute;
     bottom: 0;
     right: 35%;
     animation-delay: 6s;
+
     .pulse-css {
       @include circle(50px);
       position: relative;
+
       &:before,
       &:after {
         content: "";
         @include circle(50px);
-        background: radial-gradient(49.94% 49.94% at 50% 49.94%, rgba(196, 196, 196, 0) 0%, rgba(196, 196, 196, 0) 38.51%,#ff26c9 100%);
+        background: radial-gradient(49.94% 49.94% at 50% 49.94%, rgba(196, 196, 196, 0) 0%, rgba(196, 196, 196, 0) 38.51%, #ff26c9 100%);
         position: absolute;
         top: 0;
-        right:50%;
+        right: 50%;
         bottom: 0;
         left: 0;
         margin: auto;
@@ -152,10 +173,12 @@ body {
         transform-origin: center center;
         animation: pulse-me 3s linear infinite;
       }
+
       &:after {
         animation-delay: 1s;
       }
     }
+
     @keyframes pulse-me {
       0% {
         transform: scale(1);

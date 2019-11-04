@@ -220,7 +220,7 @@
         padding: 17px 29px 19px 21px;
         text-align: center; }
       .container-header header .home-page p {
-        font-family: "LG Smart",sans-serif;
+        font-family: "LG Smart", sans-serif;
         font-style: italic;
         font-weight: bold;
         font-size: 23px;
@@ -267,7 +267,7 @@
           -webkit-box-align: center;
           -webkit-align-items: center;
           align-items: center;
-          font-family: "LG Smart",sans-serif;
+          font-family: "LG Smart", sans-serif;
           font-weight: bold;
           font-size: 18px;
           line-height: 28px;
@@ -342,7 +342,7 @@ body {
       background: -webkit-gradient(linear, left top, left bottom, from(#DF34AA), to(#B92BD6));
       background: linear-gradient(180deg, #DF34AA 0%, #B92BD6 100%); }
       .container-main-home .main .in-house h1 {
-        font-family: "LG Smart",sans-serif;
+        font-family: "LG Smart", sans-serif;
         font-style: italic;
         font-weight: bold;
         font-size: 45px;
@@ -375,7 +375,7 @@ body {
           -webkit-border-radius: 6% 50% 50% 50% / 6% 50% 50% 50%;
           border-radius: 6% 50% 50% 50% / 6% 50% 50% 50%; }
         .container-main-home .main .in-house .test-helper .house-text p {
-          font-family: "LG Smart",sans-serif;
+          font-family: "LG Smart", sans-serif;
           font-size: 25px;
           line-height: 45px;
           color: #7842BA;
@@ -399,7 +399,7 @@ body {
       background: -webkit-gradient(linear, left top, left bottom, from(#BE26FF), to(#5B26FF));
       background: linear-gradient(180deg, #BE26FF 0%, #5B26FF 100%); }
       .container-main-home .main .playAndLearn h1 {
-        font-family: "LG Smart",sans-serif;
+        font-family: "LG Smart", sans-serif;
         font-style: italic;
         font-weight: bold;
         font-size: 45px;
@@ -436,7 +436,7 @@ body {
           .container-main-home .main .playAndLearn .go-play .play-icon .svg-x {
             opacity: 0; }
         .container-main-home .main .playAndLearn .go-play .play-text P {
-          font-family: "LG Smart",sans-serif;
+          font-family: "LG Smart", sans-serif;
           font-size: 25px;
           line-height: 45px;
           color: #7842BA;
