@@ -1,9 +1,12 @@
 
 var swiper = new Swiper('.container-main-sayHello', {
-    spaceBetween: 30,
+    spaceBetween: 0,
     direction: "vertical",
     autoplay: {
         delay: 10000,
+    },
+    navigation: {
+        nextEl: '.ready',
     },
     pagination: {
         el: '.swiper-pagination',

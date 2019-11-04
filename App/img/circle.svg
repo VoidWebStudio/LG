@@ -1,5 +1,5 @@
 <svg width="679" height="679" viewBox="0 0 679 679" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="339.5" cy="339.5" r="338.5" stroke="url(#paint0_linear)" stroke-width="2" stroke-dasharray="2 4" stroke-dashoffset='1000'/>
+<circle cx="339.5" cy="339.5" r="338.5" stroke="url(#paint0_linear)" stroke-width="2" stroke-dasharray="2 4" stroke-dashoffset='1000' transform="rotate(45,100,100)" />
 <defs>
 <linearGradient id="paint0_linear" x1="339.5" y1="0" x2="339.5" y2="679" gradientUnits="userSpaceOnUse">
 <stop stop-color="#5726FF"/>

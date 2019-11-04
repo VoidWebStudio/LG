@@ -1,6 +1,6 @@
 .container-main-sayHello.swiper-container
             .swiper-wrapper
-                .main-sayHello.swiper-slide
+                div(class="main-sayHello swiper-slide" data-swiper-autoplay="12000")
                     main
                       .welcome
                             h1(class="main__item") Добро пожаловать
@@ -31,11 +31,12 @@
                           img(src="img/ball-12.png" class="ball-12 main__item")
                           img(src="img/ball-13.png" class="ball-13 main__item")
                           svg(width='679' height='679' viewbox='0 0 679 679' fill='none' xmlns='http://www.w3.org/2000/svg' class="circle")
-                              circle(cx='339.5' cy='339.5' r='338.5' stroke='url(#paint0_linear)' stroke-width='2' stroke-dasharray='2 4' stroke-dashoffset='1000')
-                              defs
-                                  lineargradient#paint0_linear(x1='339.5' y1='0' x2='339.5' y2='679' gradientunits='userSpaceOnUse')
-                                      stop(stop-color='#5726FF')
-                                      stop(offset='1' stop-color='#9726FF')
+                                path.zbmuPUKj_0(stroke='url(#paint0_linear)' stroke-width='2' stroke-dasharray='2 4' stroke-dashoffset='1000' transform='rotate(150,339.5,339.5)' d='M1,339.5A338.5,338.5 0,1,1 678,339.5A338.5,338.5 0,1,1 1,339.5')
+                                defs
+                                    lineargradient#paint0_linear(x1='339.5' y1='0' x2='339.5' y2='679' gradientunits='userSpaceOnUse')
+                                        stop(stop-color='#5726FF')
+                                        stop(offset='1' stop-color='#9726FF')
+
                           img(src="img/home.svg" class="home-cleaner main__item")
                     .speaker
                         img(src="img/speaker.png")
@@ -67,7 +68,7 @@
                                     |еще раз
                                 a(href='#' class="ready") Готово
                         .aircleaner-low
-                            img(src="img/bgimage-2.png")
+                            img(src="img/bgimage-2.png" class="height-img")
                     .speaker
                         img(src="img/speaker.png")
                 .main-sayHello.swiper-slide
@@ -83,7 +84,7 @@
                                 | включился
                             p(class="little-windy main__item-3") Немного освежимся
                         .aircleaner-low
-                            img(src="img/bgimage-2.png")
+                            img(src="img/air.gif")
                     .speaker
                         img(src="img/speaker.png")
                 .main-sayHello.swiper-slide
@@ -110,7 +111,7 @@
                                     | еще раз
                                 a(href='#' class="ready") Готово
                         .aircleaner-low
-                            img(src="img/bgimage-2.png")
+                            img(src="img/air-max.gif")
                     .speaker
                         img(src="img/speaker.png")
                 .main-sayHello.swiper-slide
@@ -130,7 +131,7 @@
                                 |в авторежим
                             p(class="auto-end main__item-5 ") Пожалуй, достаточно
                         .aircleaner-low
-                            img(src="img/bgimage-2.png")
+                            img(src="img/air-max.gif")
                         .speaker
                             img(src="img/speaker.png")
                 .main-sayHello.swiper-slide
@@ -158,7 +159,7 @@
                                     | еще раз
                                 a(href='#' class="ready") Готово
                         .aircleaner-low
-                            img(src="img/bgimage-2.png")
+                            img(src="img/air.gif")
                         .speaker
                             img(src="img/speaker.png")
                 .main-sayHello.swiper-slide
@@ -176,7 +177,7 @@
                                 | включена
                             p(class="auto-end main__item-7") Пришло время прибраться
                         .aircleaner-low
-                            img(src="img/bgimage-2.png")
+                            img(src="img/air.gif")
                         .speaker
                             img(src="img/speaker.png")
                 .main-sayHello.swiper-slide
@@ -204,7 +205,7 @@
                                     | еще раз
                                 a(href='#' class="ready") Готово
                         .aircleaner-low
-                            img(src="img/washing&cleaning.png")
+                            img(src="img/washing&cleaning.png" class="height-img")
                         .speaker
                             img(src="img/speaker.png")
                 .main-sayHello.swiper-slide
@@ -220,7 +221,7 @@
                                 | машина запустились
                             p(class="auto-end main__item-9") Давайте сыграем
                         .aircleaner-low
-                            img(src="img/washing&cleaning.png")
+                            img(src="img/animatedwater.gif")
                         .speaker
                             img(src="img/speaker.png")
                 .main-sayHello.swiper-slide
@@ -247,7 +248,7 @@
                                     | еще раз
                                 a(href='#' class="ready") Дальше
                         .aircleaner-low
-                            img(src="img/family.png")
+                            img(src="img/family.png" class="height-img")
                         .speaker
                             img(src="img/speaker.png")
                 .main-sayHello.swiper-slide
@@ -267,7 +268,7 @@
                                     | еще раз
                                 a(href='#' class="ready") Готово
                         .aircleaner-low
-                            img(src="img/cafe.png")
+                            img(src="img/cafe.png" class="height-img")
                         .speaker
                             img(src="img/speaker.png")
                 .main-sayHello.swiper-slide
@@ -305,7 +306,7 @@
                                     | еще раз
                                 a(href='#' class="ready") Готово
                         .aircleaner-low
-                            img(src="img/city.png")
+                            img(src="img/city.png" class="height-img")
                         .speaker.animated
                             img(src="img/speaker.png")
                 .main-sayHello.swiper-slide
@@ -336,7 +337,7 @@
                                     p Алиса, пока!
                             p(class="auto-end main__item-15") Выключение
                         .aircleaner-low
-                            img(src="img/all.png")
+                            img(src="img/all.png" class="height-img")
                         .speaker.animated
                             img(src="img/speaker.png")
 
