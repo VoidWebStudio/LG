@@ -30,26 +30,26 @@
                           img(src="img/ball-11.png" class="ball-11 animated fadeIn")
                           img(src="img/ball-12.png" class="ball-12 animated fadeIn")
                           img(src="img/ball-13.png" class="ball-13 animated fadeIn")
-                          svg(width='679' height='679' viewbox='0 0 679 679' fill='none' xmlns='http://www.w3.org/2000/svg' class="circle"  )
-                              circle(cx='339.5' cy='339.5' r='338.5' stroke='url(#paint0_linear)' stroke-width='2' stroke-dasharray='2 4' stroke-dashoffset="1000" class="svg-elem-1")
+                          svg(width='679' height='679' viewbox='0 0 679 679' fill='none' xmlns='http://www.w3.org/2000/svg' class="circle")
+                              circle(cx='339.5' cy='339.5' r='338.5' stroke='url(#paint0_linear)' stroke-width='2' stroke-dasharray='2 4' stroke-dashoffset='1000')
                               defs
                                   lineargradient#paint0_linear(x1='339.5' y1='0' x2='339.5' y2='679' gradientunits='userSpaceOnUse')
                                       stop(stop-color='#5726FF')
                                       stop(offset='1' stop-color='#9726FF')
                           img(src="img/home.svg" class="home-cleaner animated fadeIn delay-1s")
-                    .speaker.animated.fadeInUp
+                    .speaker
                         img(src="img/speaker.png")
 
                 .main-sayHello.swiper-slide
                     main
                         .chat-block
                             .upper-text
-                                p(class="text-top") Оглядитесь вокруг.
+                                p(class="text-top animated fadeIn") Оглядитесь вокруг.
                                     br
                                     | Посмотрите что произойдет,
                                     br
                                     | когда вы поздороваетесь с колонкой
-                                p(class="opacity-text animated fadeInLeft") Голосовая команда запустит
+                                p(class="opacity-text animated fadeIn") Голосовая команда запустит
                                     br
                                     | несколько устройств.
                                     br
@@ -57,61 +57,286 @@
                                     br
                                     | сзади вас
                             .say-something
-                                h1(class=" animated fadeInLeft delay-2s") Скажите
-                                .hello-alice.animated.fadeInLeft
+                                h1(class=" animated fadeIn delay-2s") Скажите
+                                .hello-alice.animated.fadeInUp
                                     p Алиса, я дома!
-                            p(class="turn-on-message animated slideInLeft") Очиститель воздуха включился
+                            p(class="turn-on-message animated fadeIn") Очиститель воздуха включился
                             .button-to-approve
-                                a(href='#' class="repeat animated fadeInLeft") Попробуем
+                                a(href='#' class="repeat animated fadeIn") Попробуем
                                     br
                                     |еще раз
-                                a(href='#' class="ready animated fadeInRight") Готово
+                                a(href='#' class="ready animated fadeIn") Готово
                         .aircleaner-low
                             img(src="img/bgimage-2.png")
-                    .speaker.animated.fadeInUp
+                    .speaker
                         img(src="img/speaker.png")
                 .main-sayHello.swiper-slide
                     main
                         .chat-block
                             .say-something
-                                .hello-alice-opacity
+                                .hello-alice-opacity.animated.fadeIn
                                     p Алиса, я дома!
                             .button-approved
-                                a(href='#' class="ready-start animated fadeInRight") Готово
-                            p(class="turn-on animated fadeInLeft") Очиститель воздуха
+                                a(href='#' class="ready-start animated fadeIn") Готово
+                            p(class="turn-on animated fadeIn") Очиститель воздуха
                                 br
                                 | включился
                             p(class="little-windy") Немного освежимся
                         .aircleaner-low
                             img(src="img/bgimage-2.png")
-                    .speaker.animated.fadeInUp
+                    .speaker
                         img(src="img/speaker.png")
                 .main-sayHello.swiper-slide
                     main
-                        .welcome
-                            h1 Добро пожаловать
+                        .chat-block.max-power
+                            .button-approved
+                                a(href='#' class="ready-start button-opacity") Готово
+
+                            p(class="little-windy") Немного освежимся
+
+                            p(class="turn-on-max") Включите очиститель
                                 br
-                                | в умный дом LG ThinQ
-                            p Оглядитесь вокруг.
-                                br
-                                | Посмотрите, что произойдёт,
-                                br
-                                | когда Вы поздороваетесь с колонкой
-                            p.text-opacity Голосовая команда запустит
-                                br
-                                | несколько устройств
+                                | на максимум
+                            .say-something
+                                h1 Скажите
+                                .hello-alice.maximum-power.animated.fadeInUp
+                                    p Алиса, включи максимальную
+                                        br
+                                        |скорость очистителя воздуха
+                            p(class="turn-on-message max-it") Максимальная скорость включена
+                            .button-to-approve
+                                a(href='#' class="repeat") Попробуем
+                                    br
+                                    | еще раз
+                                a(href='#' class="ready") Готово
+                        .aircleaner-low
+                            img(src="img/bgimage-2.png")
+                    .speaker
+                        img(src="img/speaker.png")
                 .main-sayHello.swiper-slide
                     main
-                        .welcome
-                            h1 Добро пожаловать
+                        .chat-block.max-power
+                            .button-approved
+                                a(href='#' class="ready-start button-opacity") Готово
+                            .say-something
+                                .hello-alice.maximum-power.alice-opacity.animated.fadeIn
+                                    p Алиса, я дома!
+                            p(class="auto-it") Давайте переведем
                                 br
-                                | в умный дом LG ThinQ
-                            p Оглядитесь вокруг.
+                                |очиститель воздуха
                                 br
-                                | Посмотрите, что произойдёт,
+                                |в авторежим
+                            p(class="auto-end ") Пожалуй, достаточно
+                        .aircleaner-low
+                            img(src="img/bgimage-2.png")
+                        .speaker
+                            img(src="img/speaker.png")
+                .main-sayHello.swiper-slide
+                    main
+                        .chat-block.max-power
+                            .button-approved
+                                a(href='#' class="ready-start button-opacity") Готово
+
+                            p(class="auto-enough") Пожалуй, достаточно
+                            .say-something
+                            p(class="auto-let-try") Давайте переведем
                                 br
-                                | когда Вы поздороваетесь с колонкой
-                            p.text-opacity Голосовая команда запустит
+                                | обдув в обычный режим
+                            .say-something
+                                h1 Скажите
+                                .hello-alice.maximum-power.animated.fadeInUp
+                                    p Давайте переведем очиститель
+                                        br
+                                        |воздуха в авторежим
+                            p(class="auto-end") Автоматическая скорость
                                 br
-                                | несколько устройств
+                                |включена
+                            .button-to-approve
+                                a(href='#' class="repeat") Попробуем
+                                    br
+                                    | еще раз
+                                a(href='#' class="ready") Готово
+                        .aircleaner-low
+                            img(src="img/bgimage-2.png")
+                        .speaker
+                            img(src="img/speaker.png")
+                .main-sayHello.swiper-slide
+                    main
+                        .chat-block.max-power
+                            .button-approved
+                                a(href='#' class="ready-start button-opacity") Готово
+                            .say-something
+                                .hello-alice.maximum-power.animated.fadeInUp
+                                    p Алиса, включи автоматическую
+                                        br
+                                        | скорость очистителя воздуха
+                            p(class="auto-end-opacity") Автоматическая скорость
+                                br
+                                | включена
+                            p(class="auto-end") Пришло время прибраться
+                        .aircleaner-low
+                            img(src="img/bgimage-2.png")
+                        .speaker
+                            img(src="img/speaker.png")
+                .main-sayHello.swiper-slide
+                    main
+                        .chat-block.max-power
+                            .button-approved
+                                a(href='#' class="ready-start button-opacity") Готово
+                            p(class="auto-end-washing") Пришло время прибраться
+
+                            p(class="auto-end-cleaning") Давайте запустим пылесос
+                                br
+                                | у входа и одну из стиральных
+                                br
+                                | машин слева от вас
+                            .say-something
+                                h1 Скажите
+                                .hello-alice.washing.animated.fadeInUp
+                                    p Алиса, помоги с уборкой
+                            p(class="auto-end-cl") Робот-пылесос и стиральная
+                                br
+                                | машина запустились
+                            .button-to-approve
+                                a(href='#' class="repeat") Попробуем
+                                    br
+                                    | еще раз
+                                a(href='#' class="ready") Готово
+                        .aircleaner-low
+                            img(src="img/washing&cleaning.png")
+                        .speaker
+                            img(src="img/speaker.png")
+                .main-sayHello.swiper-slide
+                    main
+                        .chat-block.max-power
+                            .button-approved
+                                a(href='#' class="ready-start button-opacity") Готово
+                            .say-something
+                                .hello-alice.washing.alice-opacity.animated.fadeIn
+                                    p Алиса, помоги с уборкой
+                            p(class="auto-end-opacity") Робот-пылесос и стиральная
+                                br
+                                | машина запустились
+                            p(class="auto-end") Давайте сыграем
+                        .aircleaner-low
+                            img(src="img/washing&cleaning.png")
+                        .speaker
+                            img(src="img/speaker.png")
+                .main-sayHello.swiper-slide
+                    main
+                        .chat-block.max-power
+                            .button-approved.slide-11
+                                a(href='#' class="ready-start button-opacity" data-aos="fade-in") Готово
+                            p(class="auto-end-padding") Давайте сыграем,
+                                br
+                                | пока дом убирается
+                            .say-something.padding-fix
+                                h1 Скажите
+                                .hello-alice.washing
+                                    p Алиса, сыграем в Города
+                            p(class="auto-end-say") Чтобы закончить играть,
+                            .say-something.padding-fix
+                                h1 Скажите
+                                .hello-alice.animated.fadeInUp
+                                    p Алиса, хватит
+                            p(class="auto-end-slide-11") Найдем кафе
+                            .button-to-approve.padding-bottom
+                                a(href='#' class="repeat") Попробуем
+                                    br
+                                    | еще раз
+                                a(href='#' class="ready") Дальше
+                        .aircleaner-low
+                            img(src="img/family.png")
+                        .speaker
+                            img(src="img/speaker.png")
+                .main-sayHello.swiper-slide
+                    main
+                        .chat-block.max-power
+                            .button-approved.slide-12
+                                a(href='#' class="ready-start button-opacity") Дальше
+                            p(class="auto-end-padding") Вы проголодались?
+                            .say-something.padding-fix
+                                h1 Скажите
+                                .hello-alice.maximum-power.animated.fadeInUp
+                                    p Алиса, найди кафе рядом
+                            p(class="auto-end") Кафе найдено
+                            .button-to-approve.slide-12
+                                a(href='#' class="repeat") Попробуем
+                                    br
+                                    | еще раз
+                                a(href='#' class="ready") Готово
+                        .aircleaner-low
+                            img(src="img/cafe.png")
+                        .speaker
+                            img(src="img/speaker.png")
+                .main-sayHello.swiper-slide
+                    main
+                        .chat-block.max-power.main-alice-icon
+                            .say-something.padding-fix
+                                .hello-alice.maximum-power.alice-opacity
+                                    p Алиса, найди рядом кафе «Волконский»
+                            p(class="auto-end-say") Кафе найдено
+                            p(class="auto-end") Узнать дорожную
+                                br
+                                | обстановку
+                        .icon-block
+                            img(src="img/alica-icon.png")
+                        .speaker
+                            img(src="img/speaker.png")
+                        .approve-icon
+                            .icon-block-app
+                .main-sayHello.swiper-slide
+                    main
+                        .chat-block.max-power
+                            .button-approved.slide-12
+                                a(href='#' class="ready-start button-opacity") Готово
+                            p(class="auto-end-padding") Вы уже уходите? Узнайте, сколько
+                                br
+                                | ехать до места назначения.
+                            .say-something.padding-fix
+                                h1 Скажите
+                                .hello-alice.maximum-power.animated.fadeInUp
+                                    p Алиса, какая ситуация на дорогах?
+                            p(class="auto-end") Время поездки рассчитано
+                            .button-to-approve.slide-12
+                                a(href='#' class="repeat") Попробуем
+                                    br
+                                    | еще раз
+                                a(href='#' class="ready") Готово
+                        .aircleaner-low
+                            img(src="img/city.png")
+                        .speaker.animated
+                            img(src="img/speaker.png")
+                .main-sayHello.swiper-slide
+                    main
+                        .chat-block.max-power.main-alice-icon
+                            .say-something.padding-fix
+                                .hello-alice.maximum-power.alice-opacity.animated.fadeIn
+                                    p Алиса, какая ситуация на дорогах?
+                            p(class="auto-end-say") Оценена ситуация на дорогах
+                            p(class="auto-end") Попрощаться
+                        .icon-block-map
+                            img(src="img/point.png")
+                        .speaker
+                            img(src="img/speaker.png")
+                        .approve-icon
+                            .icon-block-app
+                .main-sayHello.swiper-slide
+                    main
+                        .chat-block.max-power
+                            .button-approved.slide-15
+                                a(href='#' class="ready-start button-opacity") Готово
+                            p(class="auto-end-padding") Не забудьте попрощаться
+                                br
+                                | с умной колонкой
+                            .say-something.padding-fix
+                                h1 Скажите
+                                .hello-alice
+                                    p Алиса, пока!
+                            p(class="auto-end") Выключение
+                        .aircleaner-low
+                            img(src="img/all.png")
+                        .speaker.animated
+                            img(src="img/speaker.png")
+
             .swiper-pagination

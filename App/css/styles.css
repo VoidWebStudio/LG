@@ -1,3 +1,132 @@
+.games-main {
+  font-family: "LG Smart", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex; }
+  .games-main__speaker .speaker {
+    right: 50% !important;
+    -webkit-transform: translateX(50%) !important;
+    transform: translateX(50%) !important; }
+  .games-main__half {
+    -webkit-flex-basis: 50%;
+    flex-basis: 50%;
+    height: 100vh;
+    padding-top: 160px; }
+    .games-main__half:nth-child(1) {
+      background: -webkit-gradient(linear, right top, left top, from(rgba(163, 80, 255, 0.17)), to(rgba(255, 255, 255, 0)));
+      background: linear-gradient(270deg, rgba(163, 80, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%); }
+    .games-main__half:nth-child(2) {
+      background: -webkit-gradient(linear, left top, left bottom, from(#BE26FF), to(#5B26FF));
+      background: linear-gradient(180deg, #BE26FF 0%, #5B26FF 100%);
+      position: relative;
+      z-index: 0; }
+  .games-main__title {
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px; }
+  .games-main__btn {
+    display: block;
+    width: 100%;
+    max-width: 540px;
+    background-color: #fff;
+    color: #7842BA;
+    font-size: 45px;
+    line-height: .5;
+    text-align: center;
+    padding: 33px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin: 0 auto 29px;
+    border: 0;
+    opacity: 0.5;
+    -webkit-transition: opacity .2s ease;
+    transition: opacity .2s ease; }
+    .games-main__btn:hover {
+      opacity: 1; }
+    .games-main__btn.is-active {
+      opacity: 1; }
+  .games-main__item {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: center;
+    position: absolute;
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+    transition: transform .3s ease, -webkit-transform .3s ease; }
+    .games-main__item:nth-child(1) {
+      left: 4%;
+      top: 33%; }
+    .games-main__item:nth-child(2) {
+      left: 2%;
+      top: 63%; }
+    .games-main__item:nth-child(3) {
+      left: 15%;
+      top: 50%; }
+    .games-main__item:nth-child(4) {
+      left: 28%;
+      top: 44%; }
+    .games-main__item:nth-child(5) {
+      left: 28%;
+      top: 73%; }
+    .games-main__item:nth-child(6) {
+      left: 37%;
+      top: 28%; }
+    .games-main__item.is-active {
+      -webkit-transform: scale(1.4);
+      transform: scale(1.4); }
+      .games-main__item.is-active .games-main__icon {
+        -webkit-box-shadow: 0 0 50px rgba(159, 49, 255, 0.4);
+        box-shadow: 0 0 50px rgba(159, 49, 255, 0.4);
+        -webkit-border-radius: 50%;
+        border-radius: 50%; }
+  .games-main__icon {
+    margin: 0 auto; }
+  .games-main__content {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: opacity .7s, -webkit-transform 1s;
+    transition: opacity .7s, -webkit-transform 1s;
+    transition: opacity .7s, transform 1s;
+    transition: opacity .7s, transform 1s, -webkit-transform 1s; }
+    .games-main__content.is-active {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      transform: translateX(0); }
+  .games-main__first-screen {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 200%;
+    opacity: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: left 2s ease, opacity .7s ease;
+    transition: left 2s ease, opacity .7s ease; }
+    .games-main__first-screen.is-active {
+      left: 50%;
+      opacity: 1; }
+  .games-main__alice-icon {
+    display: block;
+    margin: 0 auto 41px; }
+  .games-main__alice-text {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center; }
+  .games-main__text {
+    font-size: 30px;
+    font-weight: 700;
+    max-width: 170px;
+    color: #000; }
+
 * {
   padding: 0;
   margin: 0;
@@ -385,32 +514,34 @@ body {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
-  width: 100%; }
+  width: 100vw;
+  height: 100vh; }
   .container-main-sayHello .swiper-pagination {
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
     align-items: center;
     width: 50%;
+    left: -45% !important;
+    top: 97% !important;
     position: absolute;
-    left: -45% !important; }
+    margin: 0 auto; }
   .container-main-sayHello .swiper-pagination-bullet {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     color: #000;
     background: #C4C4C4;
     border: 2px solid #EAEFF4;
-    opacity: 1; }
+    opacity: 1;
+    margin-right: 20px !important; }
   .container-main-sayHello .swiper-pagination-bullet-active {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background: transparent;
-    border: 4px solid #EAEFF4; }
+    border: 4px solid #EAEFF4;
+    margin-right: 20px; }
   .container-main-sayHello .main-sayHello {
     display: -webkit-box;
     display: -webkit-flex;
@@ -420,13 +551,29 @@ body {
     -webkit-flex-direction: column;
     flex-direction: column;
     width: 100%;
-    height: 100%; }
+    height: 100vh;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    .container-main-sayHello .main-sayHello .swiper-slide {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
     .container-main-sayHello .main-sayHello main {
       display: -webkit-box;
       display: -webkit-flex;
       display: flex;
-      width: 100%;
-      height: 100%; }
+      width: 100vw;
+      height: 100vh;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
       .container-main-sayHello .main-sayHello main .welcome {
         display: -webkit-box;
         display: -webkit-flex;
@@ -444,7 +591,9 @@ body {
         width: 50%;
         height: 100vh;
         background: -webkit-gradient(linear, left top, left bottom, from(#DF34AA), to(#B92BD6));
-        background: linear-gradient(180deg, #DF34AA 0%, #B92BD6 100%); }
+        background: linear-gradient(180deg, #DF34AA 0%, #B92BD6 100%);
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
         .container-main-sayHello .main-sayHello main .welcome h1 {
           font-family: "LG Smart",sans-serif;
           font-weight: bold;
@@ -495,6 +644,9 @@ body {
           animation-fill-mode: forwards;
           -webkit-animation-delay: 3s;
           animation-delay: 3s; }
+      .container-main-sayHello .main-sayHello main .swiper-slide.active.fadeInLeft h1 {
+        -webkit-animation-name: fadeInLeft;
+        animation-name: fadeInLeft; }
       .container-main-sayHello .main-sayHello main .image-massive {
         width: 50%;
         height: 100vh;
@@ -517,7 +669,9 @@ body {
           top: 13%;
           z-index: 1;
           -webkit-animation-delay: 4s;
-          animation-delay: 4s; }
+          animation-delay: 4s;
+          -webkit-animation-play-state: initial;
+          animation-play-state: initial; }
         .container-main-sayHello .main-sayHello main .image-massive .cleaner {
           position: absolute;
           left: 83%;
@@ -569,43 +723,43 @@ body {
           animation-delay: 6.3s; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-7 {
           position: absolute;
-          left: 91%;
+          left: 90%;
           top: 61%;
           z-index: 1;
           -webkit-animation-delay: 6.6s;
           animation-delay: 6.6s; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-8 {
           position: absolute;
-          left: 88%;
-          top: 73.5%;
+          left: 87%;
+          top: 70%;
           z-index: 1;
           -webkit-animation-delay: 6.9s;
           animation-delay: 6.9s; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-9 {
           position: absolute;
-          left: 85%;
-          top: 80.5%;
+          left: 84%;
+          top: 75.5%;
           z-index: 1;
           -webkit-animation-delay: 7.1s;
           animation-delay: 7.1s; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-10 {
           position: absolute;
-          left: 65%;
-          top: 80%;
+          left: 67%;
+          top: 76.5%;
           z-index: 1;
           -webkit-animation-delay: 7.3s;
           animation-delay: 7.3s; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-11 {
           position: absolute;
-          left: 61.5%;
-          top: 74%;
+          left: 62%;
+          top: 70%;
           z-index: 1;
           -webkit-animation-delay: 7.6s;
           animation-delay: 7.6s; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-12 {
           position: absolute;
-          left: 58%;
-          top: 63%;
+          left: 59%;
+          top: 62%;
           z-index: 1;
           -webkit-animation-delay: 7.9s;
           animation-delay: 7.9s; }
@@ -616,23 +770,6 @@ body {
           z-index: 1;
           -webkit-animation-delay: 8.1s;
           animation-delay: 8.1s; }
-
-@-webkit-keyframes animate-svg-stroke-1 {
-  0% {
-    stroke-dashoffset: -2128.85822648029px;
-    stroke-dasharray: 2128.85822648029px; }
-  100% {
-    stroke-dashoffset: 0; } }
-
-@keyframes animate-svg-stroke-1 {
-  0% {
-    stroke-dashoffset: -2128.85822648029px;
-    stroke-dasharray: 2128.85822648029px; }
-  100% {
-    stroke-dashoffset: 0; } }
-        .container-main-sayHello .main-sayHello main .image-massive .svg-elem-1 {
-          -webkit-animation: animate-svg-stroke-1 2s ease-in 5s both;
-          animation: animate-svg-stroke-1 2s ease-in 5s both; }
       .container-main-sayHello .main-sayHello main .chat-block {
         display: -webkit-box;
         display: -webkit-flex;
@@ -661,8 +798,8 @@ body {
           -webkit-animation-delay: 11s;
           animation-delay: 11s; }
         .container-main-sayHello .main-sayHello main .chat-block .upper-text .text-top {
-          opacity: 0.3;
-          padding-top: 50px;
+          opacity: 0;
+          padding-top: 15px;
           padding-bottom: 20px;
           -webkit-animation-name: animated-text;
           animation-name: animated-text;
@@ -729,7 +866,7 @@ body {
               font-family: "LG Smart",sans-serif;
               font-weight: normal;
               font-size: 30px;
-              line-height: 65px;
+              line-height: 50px;
               text-align: center;
               padding-top: 30px;
               color: #7842BA; }
@@ -761,7 +898,7 @@ body {
           width: 70%;
           padding-bottom: 20px; }
           .container-main-sayHello .main-sayHello main .chat-block .button-to-approve a {
-            border: 4px solid #783CBD;
+            border: 1px solid #783CBD;
             -webkit-backdrop-filter: blur(1px);
             backdrop-filter: blur(1px);
             -webkit-border-radius: 80px;
@@ -774,7 +911,7 @@ body {
             line-height: 40px;
             text-align: center;
             color: #BEBEBE;
-            padding: 20px 40px;
+            padding: 20px 67px;
             text-decoration: none;
             -webkit-animation-delay: 15s;
             animation-delay: 15s; }
@@ -789,13 +926,12 @@ body {
             -webkit-align-items: center;
             align-items: center;
             font-family: "LG Smart",sans-serif;
-            font-style: italic;
             font-weight: normal;
             font-size: 25px;
             line-height: 10px;
             text-align: center;
             color: #FFFFFF;
-            padding: 0 67px;
+            padding: 63px 87px;
             background: -webkit-gradient(linear, left bottom, left top, color-stop(9.09%, #6326FF), color-stop(93.94%, #8526FF));
             background: linear-gradient(0deg, #6326FF 9.09%, #8526FF 93.94%);
             text-decoration: none;
@@ -921,7 +1057,193 @@ body {
         -webkit-flex-direction: column;
         flex-direction: column;
         width: 50%;
-        height: 100vh; }
+        height: 100vh;
+        position: relative;
+        z-index: -1; }
+        .container-main-sayHello .main-sayHello main .aircleaner-low img {
+          height: 100vh; }
+      .container-main-sayHello .main-sayHello main .max-power {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: start !important;
+        -webkit-justify-content: flex-start !important;
+        justify-content: flex-start !important;
+        padding-top: 80px; }
+        .container-main-sayHello .main-sayHello main .max-power .button-opacity {
+          opacity: 0.3; }
+        .container-main-sayHello .main-sayHello main .max-power .turn-on-max {
+          font-family: "LG Smart",sans-serif;
+          font-weight: normal;
+          font-size: 45px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF;
+          padding-top: 55px; }
+        .container-main-sayHello .main-sayHello main .max-power .maximum-power {
+          width: 90% !important; }
+        .container-main-sayHello .main-sayHello main .max-power .max-it {
+          padding-top: 60px !important; }
+        .container-main-sayHello .main-sayHello main .max-power .alice-opacity {
+          opacity: 0.3; }
+        .container-main-sayHello .main-sayHello main .max-power .auto-it {
+          font-family: "LG Smart",sans-serif;
+          font-weight: normal;
+          font-size: 45px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF;
+          padding-top: 55px; }
+        .container-main-sayHello .main-sayHello main .max-power .auto-end {
+          font-family: "LG Smart",sans-serif;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF;
+          opacity: 0.3;
+          padding-top: 60px; }
+        .container-main-sayHello .main-sayHello main .max-power .auto-enough {
+          font-family: "LG Smart",sans-serif;
+          font-weight: bold;
+          font-size: 45px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF;
+          padding-bottom: 60px; }
+        .container-main-sayHello .main-sayHello main .max-power .auto-let-try {
+          font-family: "LG Smart",sans-serif;
+          font-weight: bold;
+          font-size: 45px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF; }
+        .container-main-sayHello .main-sayHello main .max-power .auto-end-opacity {
+          font-family: "LG Smart",sans-serif;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF;
+          padding-top: 60px; }
+        .container-main-sayHello .main-sayHello main .max-power .washing {
+          width: 60% !important; }
+        .container-main-sayHello .main-sayHello main .max-power .padding-fix h1 {
+          padding-top: 0 !important;
+          padding-bottom: 10px !important; }
+        .container-main-sayHello .main-sayHello main .max-power .auto-end-say {
+          font-family: "LG Smart",sans-serif;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF;
+          padding-top: 20px;
+          padding-bottom: 10px; }
+        .container-main-sayHello .main-sayHello main .max-power .auto-end-padding {
+          font-family: "LG Smart",sans-serif;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF; }
+        .container-main-sayHello .main-sayHello main .max-power .padding-bottom {
+          padding-top: 30px !important; }
+        .container-main-sayHello .main-sayHello main .max-power .auto-end-washing {
+          font-family: "LG Smart",sans-serif;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF;
+          padding-bottom: 50px; }
+        .container-main-sayHello .main-sayHello main .max-power .auto-end-cleaning {
+          font-family: "LG Smart",sans-serif;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF; }
+        .container-main-sayHello .main-sayHello main .max-power .auto-end-cl {
+          font-family: "LG Smart",sans-serif;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF;
+          opacity: 0.3;
+          padding-bottom: 40px;
+          padding-top: 30px; }
+        .container-main-sayHello .main-sayHello main .max-power .family {
+          padding-bottom: 30px; }
+        .container-main-sayHello .main-sayHello main .max-power .slide-11 {
+          padding-top: 20px !important; }
+        .container-main-sayHello .main-sayHello main .max-power .slide-12 {
+          padding-top: 100px !important; }
+        .container-main-sayHello .main-sayHello main .max-power .auto-end-slide-11 {
+          font-family: "LG Smart",sans-serif;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 45px;
+          text-align: center;
+          color: #FFFFFF;
+          opacity: 0.3; }
+      .container-main-sayHello .main-sayHello main .main-alice-icon {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center !important;
+        -webkit-justify-content: center !important;
+        justify-content: center !important;
+        -webkit-box-align: center !important;
+        -webkit-align-items: center !important;
+        align-items: center !important; }
+      .container-main-sayHello .main-sayHello main .icon-block {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        width: 50%;
+        height: 100vh;
+        background: -webkit-gradient(linear, left top, left bottom, from(#EFF3F4), color-stop(21.25%, #EEF4F9), color-stop(43.62%, #E7ECF1), color-stop(74.67%, #DCE0E3), to(#D0D4D7));
+        background: linear-gradient(180deg, #EFF3F4 0%, #EEF4F9 21.25%, #E7ECF1 43.62%, #DCE0E3 74.67%, #D0D4D7 100%); }
+      .container-main-sayHello .main-sayHello main .approve-icon {
+        position: absolute;
+        bottom: 0;
+        right: 46.5%;
+        top: 75%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        width: 137px;
+        height: 137px;
+        background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(rgba(255, 255, 255, 0.58)));
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.58) 100%); }
+        .container-main-sayHello .main-sayHello main .approve-icon .icon-block-app {
+          background: url("../img/approved.png") no-repeat center;
+          -webkit-border-radius: 50%;
+          border-radius: 50%;
+          width: 137px;
+          height: 137px; }
+      .container-main-sayHello .main-sayHello main .icon-block-map {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        width: 50%;
+        height: 100vh;
+        background: url("../img/map.png"); }
+      .container-main-sayHello .main-sayHello main .slide-15 {
+        padding-top: 30% !important; }
     .container-main-sayHello .main-sayHello .speaker {
       display: -webkit-box;
       display: -webkit-flex;
@@ -931,26 +1253,19 @@ body {
       justify-content: center;
       position: absolute;
       bottom: 0;
-      right: 37.7%;
+      -webkit-backface-visibility: hidden;
+      right: 38%;
       -webkit-animation-delay: 1s;
       animation-delay: 1s; }
 
 @-webkit-keyframes animated-text {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0); }
-  to {
-    opacity: 0.3;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); } }
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 0.3; } }
 
 @keyframes animated-text {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0); }
-  to {
-    opacity: 0.3;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); } }
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 0.3; } }
