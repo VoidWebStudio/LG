@@ -542,6 +542,263 @@ body {
     background: transparent;
     border: 4px solid #EAEFF4;
     margin-right: 20px; }
+  .container-main-sayHello .swiper-slide-active .fadeInRight, .container-main-sayHello .swiper-slide-active .welcome .main__item:nth-child(1), .container-main-sayHello .swiper-slide-active .welcome .main__item:nth-child(2), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(16), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(1), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(2), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(3), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(4), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(5), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(6), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(7), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(8), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(9), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(10), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(11), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(12), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(13), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(14), .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(15), .container-main-sayHello .swiper-slide-active .chat-block .main__item-2:nth-child(2), .container-main-sayHello .swiper-slide-active .chat-block .main__item-3:nth-child(3), .container-main-sayHello .swiper-slide-active .chat-block .main__item-4:nth-child(3), .container-main-sayHello .swiper-slide-active .chat-block .main__item-5:nth-child(3), .container-main-sayHello .swiper-slide-active .chat-block .main__item-6:nth-child(2), .container-main-sayHello .swiper-slide-active .chat-block .main__item-6:nth-child(3), .container-main-sayHello .swiper-slide-active .chat-block .auto-end-washing.main__item-8, .container-main-sayHello .swiper-slide-active .chat-block .auto-end-cleaning.main__item-8, .container-main-sayHello .swiper-slide-active .chat-block .auto-end-opacity.main__item-7, .container-main-sayHello .swiper-slide-active .chat-block .auto-end-opacity.main__item-9, .container-main-sayHello .swiper-slide-active .chat-block .auto-end-padding.main__item-10, .container-main-sayHello .swiper-slide-active .chat-block .auto-end-padding.main__item-13, .container-main-sayHello .swiper-slide-active .chat-block .auto-end-padding.main__item-15, .container-main-sayHello .swiper-slide-active .chat-block .auto-end-say.main__item-10, .container-main-sayHello .swiper-slide-active .chat-block .auto-end-say.main__item-12, .container-main-sayHello .swiper-slide-active .chat-block .auto-end-say.main__item-14, .container-main-sayHello .swiper-slide-active .chat-block .button-to-approve .repeat, .container-main-sayHello .swiper-slide-active .chat-block .button-to-approve .ready, .container-main-sayHello .swiper-slide-active .chat-block .say-something h1, .container-main-sayHello .swiper-slide-active .chat-block .say-something.main__item-10 h1, .container-main-sayHello .swiper-slide-active .chat-block .button-to-approve.main__item-10 .repeat, .container-main-sayHello .swiper-slide-active .chat-block .button-to-approve.main__item-10 .ready, .container-main-sayHello .swiper-slide-active .chat-block .say-something.main__item-10-1 h1, .container-main-sayHello .swiper-slide-active .approve-icon.main__item-12, .container-main-sayHello .swiper-slide-active .approve-icon.main__item-14 {
+    -webkit-animation: fadeIn 1s ease-in-out 0s forwards;
+    animation: fadeIn 1s ease-in-out 0s forwards; }
+  .container-main-sayHello .swiper-slide-active .fadeInOpacity, .container-main-sayHello .swiper-slide-active .welcome .main__item:nth-child(3), .container-main-sayHello .swiper-slide-active .chat-block .main__item-2:nth-child(1), .container-main-sayHello .swiper-slide-active .chat-block .main__item-2:nth-child(3), .container-main-sayHello .swiper-slide-active .chat-block .main__item-3:nth-child(4), .container-main-sayHello .swiper-slide-active .chat-block .main__item-4:nth-child(2), .container-main-sayHello .swiper-slide-active .chat-block .main__item-5:nth-child(4), .container-main-sayHello .swiper-slide-active .chat-block .auto-end-cl.main__item-8, .container-main-sayHello .swiper-slide-active .chat-block .auto-end.main__item-7, .container-main-sayHello .swiper-slide-active .chat-block .auto-end.main__item-9, .container-main-sayHello .swiper-slide-active .chat-block .auto-end.main__item-15, .container-main-sayHello .swiper-slide-active .chat-block .auto-end.main__item-11, .container-main-sayHello .swiper-slide-active .chat-block .auto-end.main__item-14, .container-main-sayHello .swiper-slide-active .chat-block .auto-end.main__item-12, .container-main-sayHello .swiper-slide-active .chat-block .auto-end.main__item-13, .container-main-sayHello .swiper-slide-active .chat-block .auto-end-slide-11.main__item-10, .container-main-sayHello .swiper-slide-active .chat-block .button-approved.main__item-4 .ready-start, .container-main-sayHello .swiper-slide-active .chat-block .button-approved.main__item-5 .ready-start, .container-main-sayHello .swiper-slide-active .chat-block .say-something .hello-alice-opacity, .container-main-sayHello .swiper-slide-active .chat-block .say-something.main__item-5 .hello-alice-opacity, .container-main-sayHello .swiper-slide-active .chat-block .say-something.main__item-12 .hello-alice-opacity, .container-main-sayHello .swiper-slide-active .chat-block .say-something.main__item-13 .hello-alice-opacity {
+    -webkit-animation: fadeInOpacity 1s ease-in-out 0s forwards;
+    animation: fadeInOpacity 1s ease-in-out 0s forwards; }
+  .container-main-sayHello .swiper-slide-active .fadeInUp, .container-main-sayHello .swiper-slide-active .chat-block .button-approved.main__item-3 .ready-start, .container-main-sayHello .swiper-slide-active .chat-block .say-something .hello-alice, .container-main-sayHello .swiper-slide-active .chat-block .say-something.main__item-10 .hello-alice, .container-main-sayHello .swiper-slide-active .chat-block .say-something.main__item-10-1 .hello-alice {
+    -webkit-animation: fadeInUp 1s ease-in-out 0s forwards;
+    animation: fadeInUp 1s ease-in-out 0s forwards; }
+
+@-webkit-keyframes fadeInOpacity {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.3; } }
+
+@keyframes fadeInOpacity {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.3; } }
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+  .container-main-sayHello .swiper-slide-active .welcome .main__item:nth-child(1) {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s; }
+  .container-main-sayHello .swiper-slide-active .welcome .main__item:nth-child(2) {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; }
+  .container-main-sayHello .swiper-slide-active .welcome .main__item:nth-child(3) {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(16) {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(1) {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(2) {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(3) {
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(4) {
+    -webkit-animation-delay: 7.2s;
+    animation-delay: 7.2s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(5) {
+    -webkit-animation-delay: 7.4s;
+    animation-delay: 7.4s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(6) {
+    -webkit-animation-delay: 7.6s;
+    animation-delay: 7.6s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(7) {
+    -webkit-animation-delay: 7.8s;
+    animation-delay: 7.8s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(8) {
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(9) {
+    -webkit-animation-delay: 8.2s;
+    animation-delay: 8.2s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(10) {
+    -webkit-animation-delay: 8.4s;
+    animation-delay: 8.4s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(11) {
+    -webkit-animation-delay: 8.6s;
+    animation-delay: 8.6s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(12) {
+    -webkit-animation-delay: 8.8s;
+    animation-delay: 8.8s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(13) {
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(14) {
+    -webkit-animation-delay: 9.2s;
+    animation-delay: 9.2s; }
+  .container-main-sayHello .swiper-slide-active .image-massive .main__item:nth-child(15) {
+    -webkit-animation-delay: 9.4s;
+    animation-delay: 9.4s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .main__item-2:nth-child(1) {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .main__item-2:nth-child(2) {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .main__item-2:nth-child(3) {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .main__item-3:nth-child(3) {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .main__item-3:nth-child(4) {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .main__item-4:nth-child(2) {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .main__item-4:nth-child(3) {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .main__item-5:nth-child(3) {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .main__item-5:nth-child(4) {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .main__item-6:nth-child(2) {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .main__item-6:nth-child(3) {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end-washing.main__item-8 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end-cleaning.main__item-8 {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end-cl.main__item-8 {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end-opacity.main__item-7 {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end.main__item-7 {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end-opacity.main__item-9 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end.main__item-9 {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end.main__item-15 {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end-padding.main__item-10 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end-padding.main__item-13 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end-padding.main__item-15 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end-say.main__item-10 {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end.main__item-11 {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end-say.main__item-12 {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end.main__item-14 {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end-say.main__item-14 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end.main__item-12 {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end.main__item-13 {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .auto-end-slide-11.main__item-10 {
+    -webkit-animation-delay: 8.5s;
+    animation-delay: 8.5s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .button-to-approve .repeat {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .button-to-approve .ready {
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .button-approved.main__item-3 .ready-start {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .button-approved.main__item-4 .ready-start {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .button-approved.main__item-5 .ready-start {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .say-something h1 {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .say-something .hello-alice {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .say-something .hello-alice-opacity {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .say-something.main__item-5 .hello-alice-opacity {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .say-something.main__item-10 h1 {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .say-something.main__item-10 .hello-alice {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .button-to-approve.main__item-10 .repeat {
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .button-to-approve.main__item-10 .ready {
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .say-something.main__item-10-1 h1 {
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .say-something.main__item-10-1 .hello-alice {
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .say-something.main__item-12 .hello-alice-opacity {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s; }
+  .container-main-sayHello .swiper-slide-active .chat-block .say-something.main__item-13 .hello-alice-opacity {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s; }
+  .container-main-sayHello .swiper-slide-active .approve-icon.main__item-12 {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s; }
+  .container-main-sayHello .swiper-slide-active .approve-icon.main__item-14 {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s; }
   .container-main-sayHello .main-sayHello {
     display: -webkit-box;
     display: -webkit-flex;
@@ -601,7 +858,8 @@ body {
           line-height: 60px;
           text-align: center;
           color: #FFFFFF;
-          padding-bottom: 60px; }
+          padding-bottom: 60px;
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .welcome p {
           display: -webkit-box;
           display: -webkit-flex;
@@ -617,7 +875,8 @@ body {
           font-size: 45px;
           line-height: 45px;
           text-align: center;
-          color: #FFFFFF; }
+          color: #FFFFFF;
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .welcome .text-opacity {
           display: -webkit-box;
           display: -webkit-flex;
@@ -635,15 +894,7 @@ body {
           text-align: center;
           color: #FFFFFF;
           opacity: 0;
-          padding-top: 60px;
-          -webkit-animation-name: animated-text;
-          animation-name: animated-text;
-          -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-          -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-          -webkit-animation-delay: 3s;
-          animation-delay: 3s; }
+          padding-top: 60px; }
       .container-main-sayHello .main-sayHello main .swiper-slide.active.fadeInLeft h1 {
         -webkit-animation-name: fadeInLeft;
         animation-name: fadeInLeft; }
@@ -656,7 +907,8 @@ body {
           left: 72%;
           top: 45%;
           -webkit-animation-delay: 3.5s;
-          animation-delay: 3.5s; }
+          animation-delay: 3.5s;
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .image-massive .circle {
           position: absolute;
           left: 58%;
@@ -668,108 +920,91 @@ body {
           left: 54%;
           top: 13%;
           z-index: 1;
-          -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-          -webkit-animation-play-state: initial;
-          animation-play-state: initial; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .image-massive .cleaner {
           position: absolute;
           left: 83%;
           top: 18%;
           z-index: 1;
-          -webkit-animation-delay: 4.5s;
-          animation-delay: 4.5s; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .image-massive .washer {
           position: absolute;
           left: 69%;
           top: 70%;
           z-index: 1;
-          -webkit-animation-delay: 5s;
-          animation-delay: 5s; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-1 {
           position: absolute;
           left: 68%;
           top: 17%;
           z-index: 1;
-          -webkit-animation-delay: 5.3s;
-          animation-delay: 5.3s; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-2 {
           position: absolute;
           left: 73%;
           top: 16.5%;
           z-index: 1;
-          -webkit-animation-delay: 5.6s;
-          animation-delay: 5.6s; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-4 {
           position: absolute;
           left: 77%;
           top: 16.5%;
           z-index: 1;
-          -webkit-animation-delay: 5.9s;
-          animation-delay: 5.9s; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-5 {
           position: absolute;
           left: 80.5%;
           top: 17%;
           z-index: 1;
-          -webkit-animation-delay: 6.1s;
-          animation-delay: 6.1s; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-6 {
           position: absolute;
           left: 92.5%;
           top: 50%;
           z-index: 1;
-          -webkit-animation-delay: 6.3s;
-          animation-delay: 6.3s; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-7 {
           position: absolute;
           left: 90%;
           top: 61%;
           z-index: 1;
-          -webkit-animation-delay: 6.6s;
-          animation-delay: 6.6s; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-8 {
           position: absolute;
           left: 87%;
           top: 70%;
           z-index: 1;
-          -webkit-animation-delay: 6.9s;
-          animation-delay: 6.9s; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-9 {
           position: absolute;
           left: 84%;
           top: 75.5%;
           z-index: 1;
-          -webkit-animation-delay: 7.1s;
-          animation-delay: 7.1s; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-10 {
           position: absolute;
           left: 67%;
           top: 76.5%;
           z-index: 1;
-          -webkit-animation-delay: 7.3s;
-          animation-delay: 7.3s; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-11 {
           position: absolute;
           left: 62%;
           top: 70%;
           z-index: 1;
-          -webkit-animation-delay: 7.6s;
-          animation-delay: 7.6s; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-12 {
           position: absolute;
           left: 59%;
           top: 62%;
           z-index: 1;
-          -webkit-animation-delay: 7.9s;
-          animation-delay: 7.9s; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .image-massive .ball-13 {
           position: absolute;
           left: 57.2%;
           top: 53%;
           z-index: 1;
-          -webkit-animation-delay: 8.1s;
-          animation-delay: 8.1s; }
+          opacity: 0; }
       .container-main-sayHello .main-sayHello main .chat-block {
         display: -webkit-box;
         display: -webkit-flex;
@@ -795,20 +1030,11 @@ body {
           line-height: 45px;
           text-align: center;
           color: #FFFFFF;
-          -webkit-animation-delay: 11s;
-          animation-delay: 11s; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .chat-block .upper-text .text-top {
           opacity: 0;
           padding-top: 15px;
-          padding-bottom: 20px;
-          -webkit-animation-name: animated-text;
-          animation-name: animated-text;
-          -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-          -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-          -webkit-animation-delay: 10s;
-          animation-delay: 10s; }
+          padding-bottom: 20px; }
         .container-main-sayHello .main-sayHello main .chat-block .say-something {
           display: -webkit-box;
           display: -webkit-flex;
@@ -830,8 +1056,7 @@ body {
             color: #FFFFFF;
             padding-top: 20px;
             padding-bottom: 30px;
-            -webkit-animation-delay: 12s;
-            animation-delay: 12s; }
+            opacity: 0; }
           .container-main-sayHello .main-sayHello main .chat-block .say-something .hello-alice {
             display: -webkit-box;
             display: -webkit-flex;
@@ -851,8 +1076,7 @@ body {
             -webkit-backdrop-filter: blur(1px);
             backdrop-filter: blur(1px);
             padding-bottom: 30px;
-            -webkit-animation-delay: 13s;
-            animation-delay: 13s; }
+            opacity: 0; }
             .container-main-sayHello .main-sayHello main .chat-block .say-something .hello-alice p {
               display: -webkit-box;
               display: -webkit-flex;
@@ -879,15 +1103,7 @@ body {
           color: #FFFFFF;
           opacity: 0;
           padding-top: 20px;
-          padding-bottom: 30px;
-          -webkit-animation-name: animated-text;
-          animation-name: animated-text;
-          -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-          -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-          -webkit-animation-delay: 14s;
-          animation-delay: 14s; }
+          padding-bottom: 30px; }
         .container-main-sayHello .main-sayHello main .chat-block .button-to-approve {
           display: -webkit-box;
           display: -webkit-flex;
@@ -913,8 +1129,7 @@ body {
             color: #BEBEBE;
             padding: 20px 67px;
             text-decoration: none;
-            -webkit-animation-delay: 15s;
-            animation-delay: 15s; }
+            opacity: 0; }
           .container-main-sayHello .main-sayHello main .chat-block .button-to-approve .ready {
             display: -webkit-box;
             display: -webkit-flex;
@@ -935,8 +1150,7 @@ body {
             background: -webkit-gradient(linear, left bottom, left top, color-stop(9.09%, #6326FF), color-stop(93.94%, #8526FF));
             background: linear-gradient(0deg, #6326FF 9.09%, #8526FF 93.94%);
             text-decoration: none;
-            -webkit-animation-delay: 16s;
-            animation-delay: 16s; }
+            opacity: 0; }
         .container-main-sayHello .main-sayHello main .chat-block .hello-alice-opacity {
           display: -webkit-box;
           display: -webkit-flex;
@@ -953,18 +1167,10 @@ body {
           -webkit-border-radius: 10px 80px 80px 80px;
           border-radius: 10px 80px 80px 80px;
           width: 40%;
-          opacity: 0.3;
+          opacity: 0;
           -webkit-backdrop-filter: blur(1px);
           backdrop-filter: blur(1px);
-          padding-bottom: 30px;
-          -webkit-animation-name: animated-text;
-          animation-name: animated-text;
-          -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-          -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-          -webkit-animation-delay: 20s;
-          animation-delay: 20s; }
+          padding-bottom: 30px; }
           .container-main-sayHello .main-sayHello main .chat-block .hello-alice-opacity p {
             display: -webkit-box;
             display: -webkit-flex;
@@ -1014,8 +1220,7 @@ body {
             color: #7842BA;
             border: 1px solid #783CBD;
             text-decoration: none;
-            -webkit-animation-delay: 21s;
-            animation-delay: 21s; }
+            opacity: 0; }
         .container-main-sayHello .main-sayHello main .chat-block .turn-on {
           font-family: "LG Smart",sans-serif;
           font-weight: bold;
@@ -1023,8 +1228,7 @@ body {
           line-height: 45px;
           text-align: center;
           color: #FFFFFF;
-          -webkit-animation-delay: 22s;
-          animation-delay: 22s; }
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .chat-block .little-windy {
           font-family: "LG Smart",sans-serif;
           font-weight: normal;
@@ -1033,15 +1237,9 @@ body {
           text-align: center;
           color: #FFFFFF;
           opacity: 0;
-          padding-top: 60px;
-          -webkit-animation-name: animated-text;
-          animation-name: animated-text;
-          -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-          -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-          -webkit-animation-delay: 23s;
-          animation-delay: 23s; }
+          padding-top: 60px; }
+        .container-main-sayHello .main-sayHello main .chat-block .padding-top-windy {
+          padding-top: 20px !important; }
       .container-main-sayHello .main-sayHello main .aircleaner-low {
         display: -webkit-box;
         display: -webkit-flex;
@@ -1079,7 +1277,8 @@ body {
           line-height: 45px;
           text-align: center;
           color: #FFFFFF;
-          padding-top: 55px; }
+          padding-top: 30px;
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .max-power .maximum-power {
           width: 90% !important; }
         .container-main-sayHello .main-sayHello main .max-power .max-it {
@@ -1093,7 +1292,8 @@ body {
           line-height: 45px;
           text-align: center;
           color: #FFFFFF;
-          padding-top: 55px; }
+          padding-top: 55px;
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .max-power .auto-end {
           font-family: "LG Smart",sans-serif;
           font-weight: bold;
@@ -1101,23 +1301,25 @@ body {
           line-height: 45px;
           text-align: center;
           color: #FFFFFF;
-          opacity: 0.3;
+          opacity: 0;
           padding-top: 60px; }
         .container-main-sayHello .main-sayHello main .max-power .auto-enough {
           font-family: "LG Smart",sans-serif;
-          font-weight: bold;
+          font-weight: normal;
           font-size: 45px;
           line-height: 45px;
           text-align: center;
           color: #FFFFFF;
-          padding-bottom: 60px; }
+          padding-bottom: 60px;
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .max-power .auto-let-try {
           font-family: "LG Smart",sans-serif;
-          font-weight: bold;
+          font-weight: normal;
           font-size: 45px;
           line-height: 45px;
           text-align: center;
-          color: #FFFFFF; }
+          color: #FFFFFF;
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .max-power .auto-end-opacity {
           font-family: "LG Smart",sans-serif;
           font-weight: bold;
@@ -1125,7 +1327,8 @@ body {
           line-height: 45px;
           text-align: center;
           color: #FFFFFF;
-          padding-top: 60px; }
+          padding-top: 60px;
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .max-power .washing {
           width: 60% !important; }
         .container-main-sayHello .main-sayHello main .max-power .padding-fix h1 {
@@ -1139,14 +1342,16 @@ body {
           text-align: center;
           color: #FFFFFF;
           padding-top: 20px;
-          padding-bottom: 10px; }
+          padding-bottom: 10px;
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .max-power .auto-end-padding {
           font-family: "LG Smart",sans-serif;
           font-weight: bold;
           font-size: 30px;
           line-height: 45px;
           text-align: center;
-          color: #FFFFFF; }
+          color: #FFFFFF;
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .max-power .padding-bottom {
           padding-top: 30px !important; }
         .container-main-sayHello .main-sayHello main .max-power .auto-end-washing {
@@ -1156,14 +1361,16 @@ body {
           line-height: 45px;
           text-align: center;
           color: #FFFFFF;
-          padding-bottom: 50px; }
+          padding-bottom: 50px;
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .max-power .auto-end-cleaning {
           font-family: "LG Smart",sans-serif;
           font-weight: bold;
           font-size: 30px;
           line-height: 45px;
           text-align: center;
-          color: #FFFFFF; }
+          color: #FFFFFF;
+          opacity: 0; }
         .container-main-sayHello .main-sayHello main .max-power .auto-end-cl {
           font-family: "LG Smart",sans-serif;
           font-weight: bold;
@@ -1171,7 +1378,7 @@ body {
           line-height: 45px;
           text-align: center;
           color: #FFFFFF;
-          opacity: 0.3;
+          opacity: 0;
           padding-bottom: 40px;
           padding-top: 30px; }
         .container-main-sayHello .main-sayHello main .max-power .family {
@@ -1187,7 +1394,7 @@ body {
           line-height: 45px;
           text-align: center;
           color: #FFFFFF;
-          opacity: 0.3; }
+          opacity: 0; }
       .container-main-sayHello .main-sayHello main .main-alice-icon {
         display: -webkit-box;
         display: -webkit-flex;
@@ -1221,6 +1428,7 @@ body {
         border-radius: 50%;
         width: 137px;
         height: 137px;
+        opacity: 0;
         background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(rgba(255, 255, 255, 0.58)));
         background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.58) 100%); }
         .container-main-sayHello .main-sayHello main .approve-icon .icon-block-app {
