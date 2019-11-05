@@ -2,6 +2,7 @@
 var swiper = new Swiper('.container-main-sayHello', {
     spaceBetween: 0,
     direction: "vertical",
+    speed: 1500,
     autoplay: {
         delay: 1800000,
         disableOnInteraction:false,
