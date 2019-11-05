@@ -170,6 +170,10 @@
         animation-delay: 8.4s;
         @extend .fadeInRight;
       }
+      .home-cleaner{
+        animation-delay: 3.5s;
+        @extend .fadeInRight;
+      }
     }
     .chat-block{
       .main__item-2:nth-child(1){
@@ -995,7 +999,6 @@
       bottom: 0;
       -webkit-backface-visibility: hidden;
       right: 38%;
-      animation-delay: 1s;
     }
     @keyframes animated-text {
       0% {
