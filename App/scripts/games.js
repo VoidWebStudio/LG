@@ -19,6 +19,14 @@ gamesBtn.forEach(item => {
         selectTabItem(tabName);
     });
 });
+gamesItem.forEach(item => {
+    item.addEventListener('click', function () {
+        gamesItem.forEach( item => {
+            item.classList.remove('is-active');
+        });
+        this.classList.add('is-active');
+    });
+});
 
 function selectTabItem(tabName) {
     gamesItem.forEach(item => {

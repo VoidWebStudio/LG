@@ -47,9 +47,8 @@ body {
 
       h1 {
         font-family: "LG Smart", sans-serif;
-        font-style: italic;
         font-weight: bold;
-        font-size: 45px;
+        font-size: 80px;
         line-height: 65px;
         text-align: center;
         color: #FFFFFF;
@@ -58,7 +57,7 @@ body {
 
       .test-helper {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         position: relative;
         z-index: 1;
         align-items: center;
@@ -69,17 +68,24 @@ body {
         backdrop-filter: blur(1px);
         text-decoration: none;
 
+
         .house-icon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
           background: #6840C4;
+          width: 112px;
+          height: 115px;
           border-radius: 6% 50% 50% 50% / 6% 50% 50% 50%;
         }
 
         .house-text {
           p {
             font-family: "LG Smart", sans-serif;
-            font-size: 25px;
+            font-size: 45px;
             line-height: 45px;
             color: #7842BA;
+            padding-top: 10px;
             padding-left: 40px;
           }
 
@@ -98,9 +104,8 @@ body {
 
       h1 {
         font-family: "LG Smart", sans-serif;
-        font-style: italic;
         font-weight: bold;
-        font-size: 45px;
+        font-size: 80px;
         line-height: 65px;
         text-align: center;
         color: #FFFFFF;
@@ -116,18 +121,14 @@ body {
         background: #FFFFFF;
         border: 1px solid #783CBD;
         border-radius: 80px 80px 80px 10px;
-        padding: 28px 32px 28px 30px;
+        padding: 28px 75px 28px 50px;
         backdrop-filter: blur(1px);
         text-decoration: none;
 
         .play-icon {
           background: #6840C4;
+          padding: 19px 18px 18px 19px;
           border-radius: 6% 50% 50% 50% / 6% 50% 50% 50%;
-
-          svg {
-            padding: 10px;
-          }
-
           .svg-x {
             opacity: 0;
           }
@@ -136,9 +137,10 @@ body {
         .play-text {
           P {
             font-family: "LG Smart", sans-serif;
-            font-size: 25px;
+            font-size: 45px;;
             line-height: 45px;
             color: #7842BA;
+            padding-top: 10px;
             padding-left: 40px;
           }
         }
@@ -151,13 +153,17 @@ body {
     justify-content: center;
     position: absolute;
     bottom: 0;
-    right: 35%;
-    animation-delay: 6s;
+    right: 47.5%;
+    top: 92%;
+    img{
+      position: absolute;
+      z-index: 1;
+    }
 
     .pulse-css {
       @include circle(50px);
       position: relative;
-
+      animation-delay: 6s;
       &:before,
       &:after {
         content: "";

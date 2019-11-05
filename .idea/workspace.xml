@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58325bde-757c-401f-9d10-3ba576fd1922" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/modules/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/App/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/games.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/games.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/home.pug" beforeDir="false" afterPath="$PROJECT_DIR$/App/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/img/Air-Purifierh_Banner_Hero_2018-02_OBS_D_04 1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/fonts/LG Smart Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/img/house-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/house-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/App/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/sayHello.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/sayHello.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/sayHello.pug" beforeDir="false" afterPath="$PROJECT_DIR$/App/sayHello.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/scripts/games.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/scripts/games.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/scripts/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/slider-video.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/slider-video.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/slider-video.pug" beforeDir="false" afterPath="$PROJECT_DIR$/App/slider-video.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/home-main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/home-main.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/sayHello-main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/sayHello-main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/slider-main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/slider-main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/home-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/home-main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/sayHello-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sayHello-main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/slider-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/slider-main.scss" afterDir="false" />
     </list>
@@ -67,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1572696516606</updated>
       <workItem from="1572696519831" duration="19211000" />
-      <workItem from="1572720363547" duration="94519000" />
+      <workItem from="1572720363547" duration="95122000" />
+      <workItem from="1572950255374" duration="36519000" />
     </task>
     <servers />
   </component>
@@ -79,7 +87,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

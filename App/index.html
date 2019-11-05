@@ -27,18 +27,28 @@
           </div>
         </header>
       </div>
-      <div class="container-main-home">
+      <div class="container-main-home" data-hash="home">
         <div class="main-home">
           <div class="main">
             <div class="in-house">
-              <h1 class="animated fadeIn delay-4s">Я дома</h1><a class="animated fadeIn delay-5s test-helper" href="sayHello.html">
-                <div class="house-icon"><img src="img/house-icon.svg"></div>
+              <h1>Я дома</h1><a class="test-helper" href="sayHello.html">
+                <div class="house-icon">
+                  <svg width="49" height="59" viewbox="0 0 49 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.04208 16.3247C7.06231 17.3045 7.06231 18.899 8.04208 19.8884C9.02184 20.8681 10.6164 20.8681 11.6057 19.8884C18.3873 13.1069 29.4241 13.1069 36.2056 19.8884C36.6955 20.3783 37.339 20.628 37.9826 20.628C38.6262 20.628 39.2698 20.3783 39.7596 19.8884C40.7394 18.9086 40.7394 17.3141 39.7596 16.3247C31.0186 7.57405 16.7831 7.57405 8.04208 16.3247Z" fill="#FFFFFF" fill-opacity="0">
+                      <animate id="one" attributeName="fill-opacity" dur="500ms" values="0.5;1;" calcMode="linear" begin="0s;two.begin + 1s"></animate>
+                    </path>
+                    <path d="M46.6661 9.40865C34.1116 -3.13622 13.6902 -3.13622 1.1357 9.40865C0.155937 10.3884 0.155937 11.9829 1.1357 12.9723C2.11547 13.9521 3.70999 13.9521 4.69937 12.9723C15.2847 2.37737 32.5171 2.37737 43.112 12.9723C43.6019 13.4622 44.2455 13.7119 44.889 13.7119C45.5326 13.7119 46.1762 13.4622 46.6661 12.9723C47.6458 11.9925 47.6458 10.398 46.6661 9.40865Z" fill="#FFFFFF" fill-opacity="0">
+                      <animate id="two" attributeName="fill-opacity" dur="500ms" values="0.5;1;" calcMode="linear" begin="one.end + 0.05s"></animate>
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.827914 35.963C-0.0670387 36.6104 -0.267715 37.8607 0.379691 38.7557L0.965807 39.5659C1.61321 40.4609 2.86354 40.6615 3.75849 40.0141L4.40086 39.5494V54C4.40086 56.7614 6.63944 59 9.40086 59H17.4009H22.4009H26.4009H31.4009H39.4009C42.1623 59 44.4009 56.7614 44.4009 54V39.6893L44.85 40.0141C45.7449 40.6615 46.9952 40.4609 47.6426 39.5659L48.2288 38.7557C48.8762 37.8607 48.6755 36.6104 47.7805 35.963L44.4009 33.5181V33.5L44.3579 33.4871L24.3314 19L24.3042 19.0376L24.277 19L0.827914 35.963ZM9.40086 54H17.4009V44C17.4009 41.2385 19.6394 39 22.4009 39L26.4009 39C29.1623 39 31.4009 41.2385 31.4009 44V54H39.4009V36.0723L24.3042 25.1514L9.40087 35.9325L9.40086 54ZM26.4009 44H22.4009V54H26.4009V44Z" fill="white"></path>
+                  </svg>
+                </div>
                 <div class="house-text">
                   <p>Протестировать<br>голосового помощника</p>
                 </div></a>
             </div>
             <div class="playAndLearn">
-              <h1 class="animated fadeIn delay-4s">Узнавать-играть</h1><a class="animated fadeIn delay-5s go-play" href="games.html">
+              <h1>Узнавать-играть</h1><a class="go-play" href="games.html">
                 <div class="play-icon">
                   <svg width="75" height="75" viewbox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path class="svg-x" d="M61.7308 19.6156C65.2295 19.6156 68.077 16.7682 68.077 13.2695C68.077 9.77077 65.2295 6.92334 61.7308 6.92334C58.2321 6.92334 55.3846 9.77077 55.3846 13.2695C55.3846 16.7682 58.2321 19.6156 61.7308 19.6156ZM61.7308 10.3849C63.3218 10.3849 64.6154 11.6784 64.6154 13.2695C64.6154 14.8605 63.3218 16.1541 61.7308 16.1541C60.1398 16.1541 58.8462 14.8605 58.8462 13.2695C58.8462 11.6784 60.1398 10.3849 61.7308 10.3849Z" fill="white">
@@ -60,16 +70,17 @@
                   </svg>
                 </div>
                 <div class="play-text">
-                  <p>Протестировать<br>голосового помощника</p>
+                  <p>Играть сейчас<br>с умной колонкой</p>
                 </div></a>
             </div>
           </div>
-          <div class="speaker animated fadeInUp">
-            <div class="pulse-css"></div><img src="img/speaker.png">
-            <div class="pulse-css"></div>
+          <div class="speaker">
+            <div class="pulse-css animated fadeInUp"></div><img src="img/speaker.png">
+            <div class="pulse-css animated fadeInUp"></div>
           </div>
         </div>
       </div>
     </div>
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
   </body>
 </html>
