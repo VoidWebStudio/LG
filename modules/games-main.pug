@@ -5,7 +5,7 @@
 			p.games-main__text Найдите лишнее
 		.games-main__item.games-main__item-4
 			img(src='img/games/icon-2.png').games-main__icon
-			p.games-main__text Гаданин
+			p.games-main__text Гадание
 		.games-main__item.games-main__item-2
 			img(src='img/games/icon-3.png').games-main__icon
 			p.games-main__text Что было раньше
@@ -23,15 +23,15 @@
 		h1.games-main__title.
 			Скажите <br>
 			«Алиса, сыграем в...»
-		.games-main__content
-			button(type='button' data-item='games-main__item-1').games-main__btn Найди лишнее
-			button(type='button' data-item='games-main__item-2').games-main__btn Что было раньше
-			button(type='button' data-item='games-main__item-3').games-main__btn Слова
-			button(type='button' data-item='games-main__item-4').games-main__btn Гадание
-			button(type='button' data-item='games-main__item-5').games-main__btn Города
-			button(type='button' data-item='games-main__item-6').games-main__btn Зоология
+		.games-main__content.is-active
+			button(type='button' data-item='games-main__item-1' id="item-0").games-main__btn Найди лишнее
+			button(type='button' data-item='games-main__item-2' id="item-2").games-main__btn Что было раньше
+			button(type='button' data-item='games-main__item-3' id="item-3").games-main__btn Слова
+			button(type='button' data-item='games-main__item-4' id="item-1" ).games-main__btn Гадание
+			button(type='button' data-item='games-main__item-5' id="item-4").games-main__btn Города
+			button(type='button' data-item='games-main__item-6' id="item-5").games-main__btn Зоология
 
-		.games-main__first-screen.is-active
+		.games-main__first-screen
 			img(src='img/games/alice.svg').games-main__alice-icon
 			p.games-main__alice-text Игры с Алисой
 

@@ -32,6 +32,7 @@ var swiper = new Swiper('.container-main-sayHello', {
 var swiper2 = new Swiper('.container-slider', {
     slidesPerView: 'auto',
     centeredSlides: true,
+    loop:true,
     spaceBetween: 30,
     navigation: {
         nextEl: '.arrow-right',

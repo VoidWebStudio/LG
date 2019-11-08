@@ -768,8 +768,10 @@
         height: 100vh;
         position: relative;
         z-index: -1;
+        background: linear-gradient(180deg, #EFF3F4 0%, #EEF4F9 21.25%, #E7ECF1 43.62%, #DCE0E3 74.67%, #D0D4D7 100%)!important;
       }
       .height-img{
+        background: linear-gradient(180deg, #EFF3F4 0%, #EEF4F9 21.25%, #E7ECF1 43.62%, #DCE0E3 74.67%, #D0D4D7 100%)!important;
         height: 100vh;
       }
       .max-power{
@@ -933,6 +935,9 @@
         justify-content: center!important;
         align-items: center!important;
       }
+      .main-chess{
+        background: linear-gradient(180deg, #EFF3F4 0%, #EEF4F9 21.25%, #E7ECF1 43.62%, #DCE0E3 74.67%, #D0D4D7 100%) !important;
+      }
       .icon-block{
         display: flex;
         justify-content: center;
@@ -940,6 +945,9 @@
         width: 50%;
         height: 100vh;
         background: linear-gradient(180deg, #EFF3F4 0%, #EEF4F9 21.25%, #E7ECF1 43.62%, #DCE0E3 74.67%, #D0D4D7 100%);
+        img{
+          height: 100vh;
+        }
       }
       .approve-icon{
         position: absolute;
@@ -965,7 +973,10 @@
         align-items: center;
         width: 50%;
         height: 100vh;
-        background: url("../img/map.png");
+        background:  linear-gradient(180deg, #EFF3F4 0%, #EEF4F9 21.25%, #E7ECF1 43.62%, #DCE0E3 74.67%, #D0D4D7 100%);
+        img{
+          height: 100vh;
+        }
       }
       .slide-15{
         padding-top: 30% !important;

@@ -19,14 +19,19 @@ gamesBtn.forEach(item => {
         selectTabItem(tabName);
     });
 });
-gamesItem.forEach(item => {
+gamesItem.forEach((item,i=1) => {
     item.addEventListener('click', function () {
         gamesItem.forEach( item => {
             item.classList.remove('is-active');
         });
         this.classList.add('is-active');
+        gamesBtn.forEach( item => {
+            item.classList.remove('is-active');
+        });
+        document.getElementById('item-'+i).classList.add('is-active');
     });
 });
+
 
 function selectTabItem(tabName) {
     gamesItem.forEach(item => {

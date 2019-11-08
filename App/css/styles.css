@@ -1333,8 +1333,12 @@ body {
         width: 50%;
         height: 100vh;
         position: relative;
-        z-index: -1; }
+        z-index: -1;
+        background: -webkit-gradient(linear, left top, left bottom, from(#EFF3F4), color-stop(21.25%, #EEF4F9), color-stop(43.62%, #E7ECF1), color-stop(74.67%, #DCE0E3), to(#D0D4D7)) !important;
+        background: linear-gradient(180deg, #EFF3F4 0%, #EEF4F9 21.25%, #E7ECF1 43.62%, #DCE0E3 74.67%, #D0D4D7 100%) !important; }
       .container-main-sayHello .main-sayHello main .height-img {
+        background: -webkit-gradient(linear, left top, left bottom, from(#EFF3F4), color-stop(21.25%, #EEF4F9), color-stop(43.62%, #E7ECF1), color-stop(74.67%, #DCE0E3), to(#D0D4D7)) !important;
+        background: linear-gradient(180deg, #EFF3F4 0%, #EEF4F9 21.25%, #E7ECF1 43.62%, #DCE0E3 74.67%, #D0D4D7 100%) !important;
         height: 100vh; }
       .container-main-sayHello .main-sayHello main .max-power {
         display: -webkit-box;
@@ -1481,6 +1485,9 @@ body {
         -webkit-box-align: center !important;
         -webkit-align-items: center !important;
         align-items: center !important; }
+      .container-main-sayHello .main-sayHello main .main-chess {
+        background: -webkit-gradient(linear, left top, left bottom, from(#EFF3F4), color-stop(21.25%, #EEF4F9), color-stop(43.62%, #E7ECF1), color-stop(74.67%, #DCE0E3), to(#D0D4D7)) !important;
+        background: linear-gradient(180deg, #EFF3F4 0%, #EEF4F9 21.25%, #E7ECF1 43.62%, #DCE0E3 74.67%, #D0D4D7 100%) !important; }
       .container-main-sayHello .main-sayHello main .icon-block {
         display: -webkit-box;
         display: -webkit-flex;
@@ -1495,6 +1502,8 @@ body {
         height: 100vh;
         background: -webkit-gradient(linear, left top, left bottom, from(#EFF3F4), color-stop(21.25%, #EEF4F9), color-stop(43.62%, #E7ECF1), color-stop(74.67%, #DCE0E3), to(#D0D4D7));
         background: linear-gradient(180deg, #EFF3F4 0%, #EEF4F9 21.25%, #E7ECF1 43.62%, #DCE0E3 74.67%, #D0D4D7 100%); }
+        .container-main-sayHello .main-sayHello main .icon-block img {
+          height: 100vh; }
       .container-main-sayHello .main-sayHello main .approve-icon {
         position: absolute;
         bottom: 0;
@@ -1525,7 +1534,10 @@ body {
         align-items: center;
         width: 50%;
         height: 100vh;
-        background: url("../img/map.png"); }
+        background: -webkit-gradient(linear, left top, left bottom, from(#EFF3F4), color-stop(21.25%, #EEF4F9), color-stop(43.62%, #E7ECF1), color-stop(74.67%, #DCE0E3), to(#D0D4D7));
+        background: linear-gradient(180deg, #EFF3F4 0%, #EEF4F9 21.25%, #E7ECF1 43.62%, #DCE0E3 74.67%, #D0D4D7 100%); }
+        .container-main-sayHello .main-sayHello main .icon-block-map img {
+          height: 100vh; }
       .container-main-sayHello .main-sayHello main .slide-15 {
         padding-top: 30% !important; }
     .container-main-sayHello .main-sayHello .speaker {
