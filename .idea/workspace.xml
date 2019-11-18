@@ -4,11 +4,9 @@
     <list default="true" id="58325bde-757c-401f-9d10-3ba576fd1922" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/App/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/img/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/slider-video.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/slider-video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/slider-main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/slider-main.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/slider-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/slider-main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/sayHello.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/sayHello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/sayHello-main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/sayHello-main.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/sayHello-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/sayHello-main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +61,8 @@
       <workItem from="1572720363547" duration="95122000" />
       <workItem from="1572950255374" duration="37717000" />
       <workItem from="1573040944586" duration="9833000" />
-      <workItem from="1574092345771" duration="2937000" />
+      <workItem from="1574092345771" duration="3584000" />
+      <workItem from="1574111592290" duration="999000" />
     </task>
     <servers />
   </component>

@@ -1365,6 +1365,10 @@ body {
           padding-top: 60px !important; }
         .container-main-sayHello .main-sayHello main .max-power .alice-opacity {
           opacity: 0.3; }
+        .container-main-sayHello .main-sayHello main .max-power .main__item-7-alice {
+          margin-top: 50px; }
+        .container-main-sayHello .main-sayHello main .max-power .main__item-7-button {
+          margin-top: 20px; }
         .container-main-sayHello .main-sayHello main .max-power .auto-it {
           font-family: "LG Smart",sans-serif;
           font-weight: normal;
