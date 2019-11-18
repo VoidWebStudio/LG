@@ -48,28 +48,26 @@ for (var i = 0; i < reload_button.length; i++) {
         history.go(0);
 }
 }
+$(function() {
+    $(".btn-1").click(function () {
+        $(".content-1").hide();
+        $(".yt").show();
+        $(".yt")[1].play();
+    });
+    $(".btn-2").click(function () {
+        $(".content-2").hide();
+        $(".yt-2")[1].play();
+        $(".yt-2").show();
+    });
+    $(".btn-3").click(function () {
+        $(".content-3").hide();
+        $(".yt-3")[1].play();
+        $(".yt-3").show();
+    });
+    $(".btn-4").click(function () {
+        $(".content-4").hide();
+        $(".yt-4")[1].play();
+        $(".yt-4").show();
+    });
 
-$(".btn-1").click(function () {
-    $("#content-1").hide();
-    $("#yt")[0].play();
-    $("#yt").show();
 });
-$(".btn-2").click(function () {
-    $("#content-2").hide();
-    $("#yt-2")[0].play();
-    $("#yt-2").show();
-});
-$(".btn-3").click(function () {
-    $("#content-3").hide();
-    $("#yt-3")[0].play();
-    $("#yt-3").show();
-});
-$(".btn-4").click(function () {
-    $("#content-4").hide();
-    $("#yt-4")[0].play();
-    $("#yt-4").show();
-});
-
-// if(swiper.reachEnd){
-//     alert("dsfsfds");
-// }
